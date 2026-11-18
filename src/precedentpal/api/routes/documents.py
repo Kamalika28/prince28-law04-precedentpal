@@ -1,6 +1,6 @@
 """Read-only judgment search endpoints."""
 
-from typing import Any
+from typing import Annotated, Any
 
 from fastapi import APIRouter, Depends, HTTPException, Query
 
@@ -12,10 +12,10 @@ router = APIRouter(prefix="/v1/documents", tags=["documents"])
 
 @router.get("")
 def list_documents(
-    q: str | None = Query(default=None, max_length=200),
-    limit: int = Query(default=20, ge=1, le=100),
-    offset: int = Query(default=0, ge=0),
-    store: RecordStore = Depends(get_store),
+    q: Annotated[str | None, Query(max_length=200)] = None,
+    limit: Annotated[int, Query(ge=1, le=100)] = 20,
+    offset: Annotated[int, Query(ge=0)] = 0,
+    store: Annotated[RecordStore, Depends(get_store)] = None,
 ) -> dict[str, Any]:
     matches = store.list(q)
     return {
@@ -28,7 +28,8 @@ def list_documents(
 
 @router.get("/{document_id}")
 def get_document(
-    document_id: str, store: RecordStore = Depends(get_store)
+    document_id: str,
+    store: Annotated[RecordStore, Depends(get_store)] = None,
 ) -> dict[str, Any]:
     record = store.get(document_id)
     if record is None:
