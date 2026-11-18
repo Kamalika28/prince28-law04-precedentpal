@@ -1,4 +1,3 @@
-
 [
   {
     "id": "001",
@@ -9,7 +8,12 @@
     "judges": "Jagdish Singh Khehar, J. Chelameswar, S.A. Bobde, R.K. Agrawal, Rohinton Fali Nariman, Abhay Manohar Sapre, D.Y. Chandrachud, Sanjay Kishan Kaul, S. Abdul Nazeer",
     "opinion_type": "Multiple concurring opinions; unanimous recognition of privacy as a fundamental right",
     "subject": "Constitutional law; right to privacy; fundamental rights",
-    "cited_cases": "M.P. Sharma v. Satish Chandra; Kharak Singh v. State of Uttar Pradesh; Gobind v. State of Madhya Pradesh; R. Rajagopal v. State of Tamil Nadu"
+    "cited_cases": [
+      "M.P. Sharma v. Satish Chandra",
+      "Kharak Singh v. State of Uttar Pradesh",
+      "Gobind v. State of Madhya Pradesh",
+      "R. Rajagopal v. State of Tamil Nadu"
+    ]
   },
   {
     "id": "002",
@@ -20,7 +24,11 @@
     "judges": "Dipak Misra, Rohinton Fali Nariman, A.M. Khanwilkar, D.Y. Chandrachud, Indu Malhotra",
     "opinion_type": "Multiple opinions; unanimous outcome",
     "subject": "Constitutional law; LGBTQ+ rights; equality; Section 377 IPC",
-    "cited_cases": "National Legal Services Authority v. Union of India; Naz Foundation v. Government of NCT of Delhi; Suresh Kumar Koushal v. Naz Foundation"
+    "cited_cases": [
+      "National Legal Services Authority v. Union of India",
+      "Naz Foundation v. Government of NCT of Delhi",
+      "Suresh Kumar Koushal v. Naz Foundation"
+    ]
   },
   {
     "id": "003",
@@ -31,6 +39,295 @@
     "judges": "N.V. Ramana, R. Subhash Reddy, B.R. Gavai",
     "opinion_type": "Unanimous judgment",
     "subject": "Constitutional law; freedom of speech and expression; internet shutdowns; press freedom",
-    "cited_cases": "Shreya Singhal v. Union of India; Modern Dental College and Research Centre v. State of Madhya Pradesh; People's Union for Civil Liberties v. Union of India"
+    "cited_cases": [
+      "Shreya Singhal v. Union of India",
+      "Modern Dental College and Research Centre v. State of Madhya Pradesh",
+      "People's Union for Civil Liberties v. Union of India"
+    ]
+  },
+  {
+    "id": "004",
+    "case_name": "RAMNATH AGRAWAL & ORS. versus FOOD CORPORATION OF INDIA & ORS.",
+    "citation": "[2020] 4 S.C.R. 552",
+    "date": "13-05-2020",
+    "bench_size": "3",
+    "judges": "N.V. RAMANA, SANJIV KHANNA, KRISHNA MURARI",
+    "opinion_type": "Majority",
+    "subject": "Transfer of Property Act, 1872 – s.105 – Agreement when not a lease – In 1976, Food Corporation of India (‘FCI’) invited offers for construction of godowns on the lands of interested parties and subsequently taking over possession of the godowns Appellants’ offer accepted – Agreement dated 16.12.1976 entered between the parties – Appellants had to construct six godowns, to be taken over by FCI on rent – Appellants informed FCI that the construction of godowns was complete and the possession be taken over –",
+    "cited_cases": [
+      "Tiruvenibai v. Lilabai (1959) Supp. 2 SCR 107",
+      "State of Maharashtra v. Atur India Pvt. Ltd. (1994) 2 SCC 497",
+      "Rani Hemanta Kumari Debi v. Midnapur Zamindari Company Ltd. (1919) AIR PC 79",
+      "Panchanam Bose v. Chandra Charan Misra (1910) ILR 37 Cal 808"
+    ]
+  },
+  {
+    "id": "005",
+    "case_name": "INDIAN COMMODITY EXCHANGE LIMITED versus NEPTUNE OVERSEAS LIMITED & ORS.",
+    "citation": "[2020] 13 S.C.R. 129",
+    "date": "27-11-2020",
+    "bench_size": "2",
+    "judges": "SANJAY KISHAN KAUL, HRISHIKESH ROY",
+    "opinion_type": "Majority",
+    "subject": "Forward Contracts (Regulation) Act, 1952 – ss.3, 4, 5, 6, 7 and 8 – Respondent No.1 is Company (NOL) and respondent No.2 is the founder and CEO of National Multi Commodity Exchange India Limited (NMCE) as well as Managing Director of NOL – Respondent No.2 was served with a dated 21.06.2011 on basis of a communication by a independent journalist to Forward Markets Commission (FMC) which alleged trading irregularities within NMCE along with an allegtion of abuse of position by respondent nos.1 and 2 – The notice gave respondent no.2 a period of 10 days to",
+    "cited_cases": [
+      "Chairman, Board of Mining Examination v. Ramjee (1977) 2 SCC 256",
+      "Titaghur Paper Mills Co. Ltd. v. State of Orissa (1983) 2 SCC 433",
+      "Cement Workers Karamchari Sangh v. Jaipur Udyog Ltd. (2008) 4 SCC 701",
+      "Dharampal Satyapal Ltd. v. Deputy Commissioner of Central Excise (2015) 8 SCC 519",
+      "New Horizons Ltd. v. Union of India (1995) 1 SCC 478"
+    ]
+  },
+  {
+    "id": "006",
+    "case_name": "STATE OF MADHYA PRADESH versus YOGENDRA SINGH JADON & ANR.",
+    "citation": "[2020] 5 S.C.R. 70",
+    "date": "31-01-2020",
+    "bench_size": "2",
+    "judges": "L. NAGESWARA RAO, HEMANT GUPTA",
+    "opinion_type": "Majority",
+    "subject": "Code of Criminal Procedure, 1973: s. 482 – Charge-sheet u/s. 420 r/w. 120-B IPC – Against father of the respondents – Alleging inter alia that the accused had granted cash credit to the respondents (his sons) without proper documents, when he was President of High Court quashed the criminal proceedings qua the respondents holding that no criminal case made out against them – Appeal to Supreme Court – Held: The facts of the case prima facie disclose an offence u/ss. 420 and 120-B IPC against the respondents – High Court was not right",
+    "cited_cases": null
+  },
+  {
+    "id": "007",
+    "case_name": "THE DIRECTOR, DEPARTMENT OF ARCHAEOLOGY AND MUSEUMS, JAIPUR & ANR. versus ASHISH GAUTAM & ORS.",
+    "citation": "[2020] 4 S.C.R. 173",
+    "date": "11-05-2020",
+    "bench_size": "2",
+    "judges": "ARUN MISHRA, S. RAVINDRA BHAT",
+    "opinion_type": "Majority",
+    "subject": "Forest Area and Wildlife – Protection of – The matter pertains to a Monument ‘Sisodia Rani ka Bagh’ (‘the Monument’) situated in Jaipur, Rajasthan – A writ petition was filed to issue appropriate directions about the safety and security of the wildlife in restraining the use of laser lights, loud music and fireworks in the Monument – The High Court transferred the matter to NGT – The Tribunal held that the Monument is part of the forest area and directed that no permission should be granted to organise social functions like marriages",
+    "cited_cases": null
+  },
+  {
+    "id": "008",
+    "case_name": "STATE OF ODISHA AND ORS. versus GOBINDA BEHERA",
+    "citation": "[2020] 3 S.C.R. 643",
+    "date": "31-01-2020",
+    "bench_size": "2",
+    "judges": "D.Y. CHANDRACHUD, K.M. JOSEPH",
+    "opinion_type": "Majority",
+    "subject": "Service Law – Respondent applied for appointment to the post of Constable in Odisha State Police specifically stating in his application that he was not involved in any criminal case – Appointed – During verification, it was found that he was involved in a case from service – Odisha Administrative Tribunal rejected Original Application (OA) filed by the respondent – Reversed by High Court – On appeal, held: Respondent was seeking public employment in the State police service – His duties, on appointment to the service,",
+    "cited_cases": [
+      "Avtar Singh v. Union of India (2016) 8 SCC 471"
+    ]
+  },
+  {
+    "id": "009",
+    "case_name": "UTTAR BHARTIYA RAJAK SAMAJ PANCHAYAT BANGANGA RAJAK SAMAJ CO-OPERATIVE HOUSING SOCIETY (PROPOSED) & ANR. versus STATE OF MAHARASHTRA THROUGH SECRETARY & ORS.",
+    "citation": "[2020] 2 S.C.R. 576",
+    "date": "31-01-2020",
+    "bench_size": "2",
+    "judges": "MOHAN M. SHANTANAGOUDAR, R. SUBHASH REDDY",
+    "opinion_type": "Majority",
+    "subject": "Maharashtra Regional and Town Planning Act: s. 37(1) – Demand of premium @ 25% in respect of Slum Rehabilitation Scheme in terms of Notification Propriety of – Letter of Intent (LOI) issued for Slum Rehabilitation Scheme on 5.1.2005, subject to clearance by Coastal Zone Management Authority (CRZ) – During pendency of proceedings before CRZ, Directives issued by Government on 16.4.2008 requiring to pay premium @ 25 % in respect",
+    "cited_cases": null
+  },
+  {
+    "id": "010",
+    "case_name": "NOY VALLESINA ENGINEERING SPA, (NOW KNOWN AS NOY AMBIENTE S.P.A.) versus JINDAL DRUGS LIMITED & ORS.",
+    "citation": "[2020] 12 S.C.R. 1019",
+    "date": "26-11-2020",
+    "bench_size": "2",
+    "judges": "INDIRA BANERJEE, S. RAVINDRA BHAT",
+    "opinion_type": "Majority",
+    "subject": "Arbitration and Conciliation Act, 1996: s.34 – Petition under – Challenging foreign award – Maintainability of – Held: Seat of arbitration in the present case was in London under the aegis of ICC – Challenge to such award u/s. 34 is not maintainable. against orders passed in arbitration proceedings – Maintainability – Held: Section 50 alone provides for an appeal in all arbitration cases of enforcement of foreign awards – Letters Patent Appeals against such orders is not maintainable. Allowing the appeal, the Court HELD: 1.",
+    "cited_cases": [
+      "Bhatia International v. Bulk Trading S.A. (2002) 4 SCC 105",
+      "Union of India v. Reliance Industries (2015) 10 SCC 213",
+      "Harmony Innovation Shipping Ltd. v. Gupta Coal India Ltd. (2015) 9 SCC 172",
+      "Venture Global Engineering v. Satyam Computer Services Ltd. (2008) 4 SCC 190",
+      "Roger Shashoua v. Mukesh Sharma (2017) 14 SCC 722",
+      "IMAX Corporation v. E-City Entertainment (India) Pvt. Ltd. (2017) 5 SCC 331",
+      "Government of India v. Vedanta Ltd. (2020) SCC OnLine SC 749",
+      "BGS SOMA JV v. NHPC Ltd.",
+      "Fuerst Day Lawson Ltd. v. Jindal Exports Ltd. (2011) 8 SCC 333",
+      "Union of India v. Simplex Infrastructures Ltd. (2017) 14 SCC 225",
+      "Kandla Export Corporation v. OCI Corporation (2018) 14 SCC 715"
+    ]
+  },
+  {
+    "id": "011",
+    "case_name": "DIRECTOR GENERAL OF POLICE, RAILWAY PROTECTION FORCE AND ORS. versus RAJENDRA KUMAR DUBEY",
+    "citation": "[2020] 13 S.C.R. 1191",
+    "date": "25-11-2020",
+    "bench_size": "3",
+    "judges": "D.Y. CHANDRACHUD, INDU MALHOTRA, K.M. JOSEPH",
+    "opinion_type": "Majority",
+    "subject": "Service Law: Compulsory Retirement – Punishment of – Imposed by departmental authority – Writ Petition – High Court reduced the punishment of compulsory retirement to reversion in rank for a period of 6 months – Directed reinstatement – Appeal to Supreme Court – Held: High Court was not justified in setting aside the order of compulsory retirement. Constitution of India: Arts. 226 and 227 – Scope under – To interfere with disciplinary proceedings – Held: High court, in exercise of power u/Arts.",
+    "cited_cases": [
+      "State of Andhra Pradesh v. S. Sree Rama Rao (1964) 3 SCR 25",
+      "State of Andhra Pradesh v. Chitra Venkata Rao (1975) 2 SCC 557",
+      "Union of India v. G. Ganayutham (1997) 7 SCC 463",
+      "Director General RPF v. Ch. Sai Babu (2003) 4 SCC 331",
+      "Chennai Metropolitan Water Supply and Sewerage Board v. T.T. Murali Babu (2014) 4 SCC 108",
+      "Union of India v. Manab Kumar Guha (2011) 11 SCC 535",
+      "State of Rajasthan v. Heem Singh (2020) AIR 5455",
+      "Union of India v. P. Gunasekaran (2015) 2 SCC 610",
+      "B.C. Chaturvedi v. Union of India (1995) 6 SCC 749",
+      "Om Kumar v. Union of India (2001) 2 SCC 386",
+      "Coimbatore District Central Co-operative Bank v. Employees Association (2007) 4 SCC 669",
+      "Coal India Ltd. v. Mukul Kumar Choudhuri (2009) 15 SCC 620"
+    ]
+  },
+  {
+    "id": "012",
+    "case_name": "SRI V.N. KRISHNA MURTHY & ANR. ETC. ETC. versus SRI RAVIKUMAR & ORS. ETC. ETC.",
+    "citation": "[2020] 7 S.C.R. 1148",
+    "date": "21-08-2020",
+    "bench_size": "3",
+    "judges": "L. NAGESWARA RAO, KRISHNA MURARI, S. RAVINDRA BHAT",
+    "opinion_type": "Majority",
+    "subject": "Code of Civil Procedure, 1908 – ‘Judgment in rem’; ‘aggrieved party’ – When not – Owners of the land in dispute executed an agreement to sell in favour of a Society – A General Power of Attorney (GPA) in favour of the Society was also executed authorizing them to enter into sale transaction of the property – Sale deeds in respect of the property executed in favour of appellants – Suits filed by respondents-plaintiffs claiming to be co-owners of the property inter alia seeking cancellation of",
+    "cited_cases": [
+      "Jatan Kumar Golcha v. Golcha Properties Pvt. Ltd. (1970) 3 SCC 573",
+      "State of Punjab v. Amar Singh (1974) 2 SCC 70",
+      "Baldev Singh v. Surinder Mohan Sharma (2003) 1 SCC 34",
+      "A. Subash Babu v. State of Andhra Pradesh (2011) 7 SCC 616",
+      "Shanti Kumar R. Canji v. Home Insurance Co. of New York (1974) 2 SCC 387",
+      "State of Rajasthan v. Union of India (1977) 3 SCC 592"
+    ]
+  },
+  {
+    "id": "013",
+    "case_name": "AVITEL POST STUDIOZ LIMITED & ORS. versus HSBC PI HOLDINGS (MAURITIUS) LIMITED",
+    "citation": "[2020] 10 S.C.R. 791",
+    "date": "19-08-2020",
+    "bench_size": "2",
+    "judges": "R.F. NARIMAN, NAVIN SINHA",
+    "opinion_type": "Majority",
+    "subject": "Arbitration and Conciliation Act, 1996 – s. 9 – Contract Act, 1872 – ss. 17 and 18 – A Share Subscription Agreement (SSA) and Shareholders’ Agreement (SHA) was entered into between the claimant and the appellants – Both SSA and SHA contained an identical appellants made a representation that they were at a very advanced stage of finalising a contract with the British Broadcasting Corporation (BBC) to convert the BBC’s film library from 2D to 3D – This contract was expected to generate a revenue of USD 300 million in first phase, and",
+    "cited_cases": [
+      "Afcons Infrastructure Ltd. v. Cherian Varkey Construction Co. (P) Ltd. (2010) 8 SCC 24",
+      "Booz Allen & Hamilton Inc. v. SBI Home Finance Ltd. (2011) 5 SCC 532",
+      "Haryana Telecom Ltd. v. Sterlite Industries (India) Ltd. (1999) 5 SCC 688",
+      "Vimal Kishor Shah v. Jayesh Dinesh Shah (2016) 8 SCC 788",
+      "A. Ayyasamy v. A. Paramasivam (2016) 10 SCC 386",
+      "Ameet Lalchand Shah v. Rishabh Enterprises (2018) 15 SCC 678",
+      "Rashid Raza v. Sadaf Akhtar (2019) 8 SCC 710",
+      "Kishan Singh v. Gurpal Singh (2010) 8 SCC 775",
+      "Guru Granth Saheb Sthan Meerghat Vanaras v. Ved Prakash (2013) 7 SCC 622",
+      "Abdul Kadir Shamsuddin Bubere v. Madhav Prabhakar Oak (1962) 3 SCR 702",
+      "Swiss Timing Ltd. v. Organising Committee, Commonwealth Games (2014) 6 SCC 677",
+      "Vidya Drolia v. Durga Trading Corporation (2019) SCC OnLine SC 358",
+      "N. Radhakrishnan v. Maestro Engineers (2010) 1 SCC 72",
+      "K.G. Premshanker v. Inspector of Police (2002) 8 SCC 87",
+      "Syed Askari Hadi Ali Augustine Imam v. State (Delhi Administration) (2009) 5 SCC 528",
+      "P. Swaroopa Rani v. M. Hari Narayana (2008) 5 SCC 765",
+      "M.S. Sheriff v. State of Madras (1954) SCR 1144",
+      "V.M. Shah v. State of Maharashtra (1995) 5 SCC 767",
+      "State of West Bengal v. Associated Contractors (2015) 1 SCC 32"
+    ]
+  },
+  {
+    "id": "014",
+    "case_name": "MOHD. ANWAR versus THE STATE (N.C.T. OF DELHI)",
+    "citation": "[2020] 7 S.C.R. 150",
+    "date": "19-08-2020",
+    "bench_size": "3",
+    "judges": "N.V. RAMANA, S. ABDUL NAZEER, SURYA KANT",
+    "opinion_type": "Majority",
+    "subject": "Penal Code, 1860 – s. 394 – Arms Act, 1959 – s. 25 – The prosecution case was that victim-complainant was caught hold by three boys armed with weapons and extorted Rs. 30,000/- from him – FIR was registered – Police apprehended all three accused persons and the said robbery – They were produced before the Metropolitan Magistrate for a Test Identification Parade, which they refused to undergo – The Trial Court held all three accused guilty of robbery with an attempt to cause grievous hurt and sentenced them to 7 years rigorous",
+    "cited_cases": [
+      "Ashwani Kumar v. State of Punjab (2015) 6 SCC 308",
+      "T.N. Lakshmaiah v. State of Karnataka (2002) 1 SCC 219"
+    ]
+  },
+  {
+    "id": "015",
+    "case_name": "COMMISSIONER (CT) LTU KAKINADA & ORS. versus M/S. GLAXO SMITH KLINE CONSUMER HEALTH CARE LIMITED",
+    "citation": "[2020] 4 S.C.R. 602",
+    "date": "06-05-2020",
+    "bench_size": "2",
+    "judges": "A.M. KHANWILKAR, DINESH MAHESHWARI",
+    "opinion_type": "Majority",
+    "subject": "Constitution of India: Art. 226 – Jurisdiction under – Scope of – Assessment under Andhra Pradesh Value Added Tax Act, 2005 – Appeal against assessment order filed beyond limitation period with application – Appeal dismissed as barred by limitation – Writ Petition u/Art. 226 seeking to quash the assessment order – High Court quashed the assessment order relegating the assessee to Assessing Officer for reconsideration of the matter afresh – Appeal to Supreme Court –",
+    "cited_cases": [
+      "Nivedita Sharma v. Cellular Operators Association of India (2011) 14 SCC 337",
+      "Thansingh Nathmal v. Superintendent of Taxes (1964) 6 SCR 654",
+      "Baburam Prakash Chandra Maheshwari v. Antarim Zila Parishad (1969) SCR 518",
+      "Titaghur Paper Mills Co. Ltd. v. State of Orissa (1983) 2 SCC 433",
+      "Mafatlal Industries Ltd. v. Union of India (1997) 5 SCC 536",
+      "Singh Enterprises v. Commissioner of Central Excise (2008) 3 SCC 70",
+      "Commissioner of Customs and Central Excise v. Hongo India Pvt. Ltd. (2009) 5 SCC 791",
+      "Chhattisgarh State Electricity Board v. Central Electricity Regulatory Commission (2010) 5 SCC 23",
+      "Suryachakra Power Corporation Ltd. v. Superintending Engineer (2016) 16 SCC 152",
+      "State v. Mushtaq Ahmad (2016) 1 SCC 315",
+      "K.S. Rashid & Son v. Income Tax Investigation Commission (1954) SCR 738",
+      "ITC Ltd. v. Union of India (1998) 8 SCC 610"
+    ]
+  },
+  {
+    "id": "016",
+    "case_name": "CENTRE FOR PUBLIC INTEREST LITIGATION versus UNION OF INDIA",
+    "citation": "[2020] 11 S.C.R. 425",
+    "date": "18-08-2020",
+    "bench_size": "3",
+    "judges": "ASHOK BHUSHAN, M.R. SHAH, R. SUBHASH REDDY",
+    "opinion_type": "Majority",
+    "subject": "INTEREST LITIGATION v. UNION OF INDIA (Writ Petition (Civil) No. 546 of 2020) AUGUST 18, 2020 [ASHOK BHUSHAN, R. SUBHASH REDDY AND M. R. SHAH, JJ. ] Disaster Management Act, 2005 – s.11 – National Plan – COVID-19 – Pandemic – A Public Interest Litigation filed in (COVID-19) – Petitioner submitted that National Plan uploaded on the website of National Disaster Management Authority of the year 2019 does not deal with situations arising out of the current pandemic and has no mention of measures like lockdown, containment zones, social distancing etc.",
+    "cited_cases": [
+      "Swaraj Abhiyan v. Union of India (2016) 7 SCC 498",
+      "Gaurav Kumar Bansal v. Union of India (2017) 6 SCC 730",
+      "Mulla Gulam Ali & Safiabai D. Trust v. Deelip Kumar & Co. (2003) 11 SCC 772"
+    ]
+  },
+  {
+    "id": "017",
+    "case_name": "RATNAGIRI NAGAR PARISHAD versus GANGARAM NARAYAN AMBEKAR & ORS.",
+    "citation": "[2020] 6 S.C.R. 303",
+    "date": "06-05-2020",
+    "bench_size": "2",
+    "judges": "A.M. KHANWILKAR, DINESH MAHESHWARI",
+    "opinion_type": "Majority",
+    "subject": "National Green Tribunal Act, 2010: s.29 – Bar of jurisdiction of civil court – To cases relating to environment – Held: After the establishment of the Tribunal under the Act, civil court is not competent to entertain a suit relating to environmental issues, in view of s. 29 in *Bhopal Gas Case – Such cause/ action ought to be transferred to the Tribunal for adjudication. Specific Relief Act, 1963: s.41(f) – Injunction – Refusal of – Held: In view of s. 41(f), injunction cannot be granted to prevent, on the ground of nuisance, an act of which",
+    "cited_cases": [
+      "Board of Trustees of Port of Kandla v. Hargovind Jasraj (2013) 3 SCC 182",
+      "Anathula Sudhakar v. P. Buchi Reddy (2008) 4 SCC 594",
+      "Kuldip Singh v. Subhash Chander Jain (2000) 4 SCC 50",
+      "Smith v. East Elloe Rural District Council (1956) AC 736"
+    ]
+  },
+  {
+    "id": "018",
+    "case_name": "THE COMMISSIONER OF CENTRAL EXCISE, CUSTOMS AND SERVICE TAX, CALICUT versus M/S. CERA BOARDS AND DOORS, KANNUR KERALA & ORS.",
+    "citation": "[2020] 11 S.C.R. 471",
+    "date": "19-08-2020",
+    "bench_size": "3",
+    "judges": "S.A. BOBDE, A.S. BOPANNA, V. RAMASUBRAMANIAN",
+    "opinion_type": "Majority",
+    "subject": "Central Excise Act, 1944 – s.4 amended in 2000 – Charging of excise duty – Method of valuation of excisable goods – In present cases arising out of similar facts, assesses allegedly undervalued the by them – Evaded the excise duty actually payable – Period of assessment pre & post 2000 Amendment – Adjudicating authorities inter alia held that there was undervaluation and evasion of excise duty – Customs, Excise and Service Tax Appellate Tribunal (CESTAT)",
+    "cited_cases": [
+      "Commissioner of Central Excise v. Grasim Industries Ltd. (2018) 7 SCC 233"
+    ]
+  },
+  {
+    "id": "019",
+    "case_name": "HEMIBEN LADHABHAI BHANDERI versus SAURASHTA GRAMIN BANK & ANR",
+    "citation": "[2020] 3 S.C.R. 818",
+    "date": "03-02-2020",
+    "bench_size": "2",
+    "judges": "D.Y. CHANDRACHUD, HEMANT GUPTA",
+    "opinion_type": "Majority",
+    "subject": "Consumer Protection Act, 1986: Deficiency of service – Spouse of the appellant was account holder with the first respondent bank – A scheme was launched by an insurance company for the account holders of the respondent-bank – Under the terms the insurer and the bank, the account holder was required to submit a Form to the concerned officer of the bank in order to avail insurance cover – Bank was to deduct Rs. 100 as premium from the account holder and forward it to the insurer – Insurance cover of Rs. 5 lakhs was offered",
+    "cited_cases": null
+  },
+  {
+    "id": "020",
+    "case_name": "MANOHAR LAL JAT & ORS. ETC. versus THE STATE OF RAJASTHAN & ORS. ETC.",
+    "citation": "[2020] 11 S.C.R. 948",
+    "date": "26-11-2020",
+    "bench_size": "2",
+    "judges": "INDIRA BANERJEE, S. RAVINDRA BHAT",
+    "opinion_type": "Majority",
+    "subject": "Rajasthan Commercial Taxes Subordinate Services (General Branch) Rules, 1975: r.27 – Seniority – Creation of post of Tax Assistant – Proposal to fill 80% by direct recruitment and 20% from amongst direct promotees – Advertisement issued on 25.01.2011 for recruitment of up of 20% quota for direct promotees – Result of written examination held for direct promotees announced on 14.06.2011 and promotion letters issued on 23.06.2011 – Provisional results for the test held for direct recruits declared on 16.05.2011 – Appointment orders of the",
+    "cited_cases": [
+      "Prem Kumar Verma v. Union of India (1998) 5 SCC 457",
+      "V.R. Pattabiraman v. Union of India (1985) 1 SCC 591",
+      "J.K. Industries Ltd. v. Union of India (1996) 6 SCC 665",
+      "Casio India Pvt. Ltd. v. State of Haryana (2016) 6 SCC 209",
+      "Rohitash Kumar v. Om Prakash Sharma (2013) 11 SCC 451"
+    ]
   }
 ]
