@@ -1,0 +1,57 @@
+[
+  {
+    "id": "001",
+    "case_name": "His Holiness Kesavananda Bharati Sripadagalavaru v. State of Kerala",
+    "citation": "(1973) 4 SCC 225; [1973] Supp. SCR 1",
+    "date": "1973-04-24",
+    "bench_size": 13,
+    "judges": ["S. M. Sikri", "J. M. Shelat", "K. S. Hegde", "A. N. Grover", "A. N. Ray", "P. Jaganmohan Reddy", "D. G. Palekar", "H. R. Khanna", "K. K. Mathew", "M. H. Beg", "S. N. Dwivedi", "A. K. Mukherjea", "Y. V. Chandrachud"],
+    "opinion_type": "multiple opinions; 7:6 decision",
+    "subject": "constitutional law; basic structure doctrine",
+    "cited_cases": null
+  },
+  {
+    "id": "002",
+    "case_name": "Maneka Gandhi v. Union of India",
+    "citation": "(1978) 1 SCC 248; [1978] 2 SCR 621",
+    "date": "1978-01-25",
+    "bench_size": 5,
+    "judges": ["M. H. Beg", "P. N. Bhagwati", "P. S. Kailasam", "V. R. Krishna Iyer", "Y. V. Chandrachud"],
+    "opinion_type": null,
+    "subject": "constitutional law; personal liberty; Articles 14, 19 and 21",
+    "cited_cases": null
+  },
+  {
+    "id": "003",
+    "case_name": "Minerva Mills Ltd. v. Union of India",
+    "citation": "(1980) 3 SCC 625; [1981] 1 SCR 206",
+    "date": null,
+    "bench_size": null,
+    "judges": null,
+    "opinion_type": null,
+    "subject": "constitutional law; basic structure; amending power",
+    "cited_cases": null
+  },
+  {
+    "id": "004",
+    "case_name": "Sharad Birdhi Chand Sarda v. State of Maharashtra",
+    "citation": "(1984) 4 SCC 116; [1985] 1 SCR 88",
+    "date": null,
+    "bench_size": null,
+    "judges": null,
+    "opinion_type": null,
+    "subject": "criminal law; circumstantial evidence",
+    "cited_cases": null
+  },
+  {
+    "id": "005",
+    "case_name": "A. R. Antulay v. R. S. Nayak",
+    "citation": "(1988) 2 SCC 602; [1988] 1 Supp. SCR 1",
+    "date": null,
+    "bench_size": null,
+    "judges": null,
+    "opinion_type": null,
+    "subject": "criminal law; fair trial; judicial procedure",
+    "cited_cases": null
+  }
+]
