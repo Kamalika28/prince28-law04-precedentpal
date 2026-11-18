@@ -1,0 +1,36 @@
+
+[
+  {
+    "id": "001",
+    "case_name": "Justice K.S. Puttaswamy (Retd.) v. Union of India",
+    "citation": "(2017) 10 SCC 1",
+    "date": "2017-08-24",
+    "bench_size": "9",
+    "judges": "Jagdish Singh Khehar, J. Chelameswar, S.A. Bobde, R.K. Agrawal, Rohinton Fali Nariman, Abhay Manohar Sapre, D.Y. Chandrachud, Sanjay Kishan Kaul, S. Abdul Nazeer",
+    "opinion_type": "Multiple concurring opinions; unanimous recognition of privacy as a fundamental right",
+    "subject": "Constitutional law; right to privacy; fundamental rights",
+    "cited_cases": "M.P. Sharma v. Satish Chandra; Kharak Singh v. State of Uttar Pradesh; Gobind v. State of Madhya Pradesh; R. Rajagopal v. State of Tamil Nadu"
+  },
+  {
+    "id": "002",
+    "case_name": "Navtej Singh Johar v. Union of India",
+    "citation": "(2018) 10 SCC 1",
+    "date": "2018-09-06",
+    "bench_size": "5",
+    "judges": "Dipak Misra, Rohinton Fali Nariman, A.M. Khanwilkar, D.Y. Chandrachud, Indu Malhotra",
+    "opinion_type": "Multiple opinions; unanimous outcome",
+    "subject": "Constitutional law; LGBTQ+ rights; equality; Section 377 IPC",
+    "cited_cases": "National Legal Services Authority v. Union of India; Naz Foundation v. Government of NCT of Delhi; Suresh Kumar Koushal v. Naz Foundation"
+  },
+  {
+    "id": "003",
+    "case_name": "Anuradha Bhasin v. Union of India",
+    "citation": "(2020) 3 SCC 637; 2020 INSC 31",
+    "date": "2020-01-10",
+    "bench_size": "3",
+    "judges": "N.V. Ramana, R. Subhash Reddy, B.R. Gavai",
+    "opinion_type": "Unanimous judgment",
+    "subject": "Constitutional law; freedom of speech and expression; internet shutdowns; press freedom",
+    "cited_cases": "Shreya Singhal v. Union of India; Modern Dental College and Research Centre v. State of Madhya Pradesh; People's Union for Civil Liberties v. Union of India"
+  }
+]
