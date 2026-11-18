@@ -11,7 +11,7 @@ def health() -> dict[str, str]:
     return {"status": "ok"}
 
 
-@router.get("/ready")
+@router.get("/ready", response_model=None)
 def ready(request: Request) -> JSONResponse | dict:
     store = request.app.state.store
     payload = {

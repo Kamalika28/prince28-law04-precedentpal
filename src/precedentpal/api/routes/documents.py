@@ -33,7 +33,5 @@ def get_document(
 ) -> dict[str, Any]:
     record = store.get(document_id)
     if record is None:
-        raise HTTPException(
-            status_code=404, detail=f"No document with id '{document_id}'."
-        )
+        raise HTTPException(status_code=404, detail=f"No document with id '{document_id}'.")
     return record

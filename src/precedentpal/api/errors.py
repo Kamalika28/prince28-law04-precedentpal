@@ -48,6 +48,4 @@ def install_error_handlers(app: FastAPI) -> None:
             "request_id": request_id,
             "errors": errors,
         }
-        return JSONResponse(
-            body, status_code=422, media_type="application/problem+json"
-        )
+        return JSONResponse(body, status_code=422, media_type="application/problem+json")
