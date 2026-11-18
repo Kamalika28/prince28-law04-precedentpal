@@ -1,0 +1,26 @@
+[project]
+name = "precedentpal"
+version = "0.1.0"
+description = "A Supreme Court judgment research API for finding and analysing Indian legal precedents."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "pydantic-settings>=2.6.0",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.27.0",
+    "pre-commit>=4.0.0",
+    "pytest>=8.3.0",
+    "ruff>=0.7.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/precedentpal"]
