@@ -1,8 +1,18 @@
 # PrecedentPal
 
+
+[![CI](https://github.com/Kamalika28/prince28-law04-precedentpal/actions/workflows/ci.yml/badge.svg)](https://github.com/Kamalika28/prince28-law04-precedentpal/actions/workflows/ci.yml)
+
+[![Live](https://img.shields.io/website?url=https%3A%2F%2Fprecedentpal.onrender.com%2Fhealth&label=live)](https://precedentpal.onrender.com/docs)
+
+[![Uptime (30 days)](https://img.shields.io/uptimerobot/ratio/m804750837-99ba921264098a2a7c89ea1e)](https://precedentpal.onrender.com/health)
+
+**Live:** [https://precedentpal.onrender.com](https://precedentpal.onrender.com) · [API docs](https://precedentpal.onrender.com/docs) · [health](https://precedentpal.onrender.com/health)
+
+
 A Supreme Court research assistant that finds precedents, separates majority and dissent, and checks whether a judgment was later overruled.
 
-**Status:** Day 1 foundation (FastAPI skeleton, quality gates). Live URL from Day 5.
+**Status:** Week 1 complete · live at https://precedentpal.onrender.com
 
 ## Who it's for
 
