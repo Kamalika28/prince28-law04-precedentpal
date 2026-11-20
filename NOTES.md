@@ -172,3 +172,30 @@ coverage TOTAL, with integration tests → paste
 ```
 
 Two files or lines my coverage report says are never run, and whether they matter: (2 lines)
+
+## D05 · CI/CD and going live
+
+- Live URL: https://precedentpal.onrender.com
+- CI run for pull request 1: https://github.com/Kamalika28/prince28-law04-precedentpal/actions/runs/44703306312
+- First deploy that ran by itself: https://github.com/Kamalika28/prince28-law04-precedentpal/actions/runs/44768490762
+- Merge clicked at 9:26 PM → "Smoke test passed" at 9:38 PM → lead time: 12 min
+
+### Smoke test output from that CD run
+```text
+ok   /health -> 200, version a545be3d9d91115e956a4908492532f69afee2f3
+ok   /ready -> 200 {'status': 'ready', 'checks': {'database': True}}
+ok   /v1/documents?limit=1 -> 200
+```
+
+### Rollback drill
+- Rolled back to sha 59138c68c137192ff9af218cfa09aa12c83f6512 : started __:__, smoke passed __:__ (___ min)
+- Rolled forward to sha a545be3d9d91115e956a4908492532f69afee2f3 : ___ min
+- During the rollback, the database stayed on the newer schema. Why is that safe here? (2 lines)
+
+### Where my secrets live
+- Neon string: GitHub Secret DATABASE_URL + Render environment. Not in Git, not in the image.
+- Render deploy hook: GitHub Secret RENDER_DEPLOY_HOOK only.
+
+### Monitoring
+- UptimeRobot checks /health every 5 minutes; alerts go to my email.
+- One thing that would make my live app faster on its first request: (1 line)
