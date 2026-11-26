@@ -17,3 +17,11 @@ data/raw/
 # Test and coverage output
 .coverage
 htmlcov/
+
+# Generated datasets and downloaded judgment samples
+data/*.csv
+!data/sources.csv
+data/**/*.pdf
+data/metadata/
+data/sample_judgments/
+data/screening/
