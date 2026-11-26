@@ -204,7 +204,7 @@ ok   /v1/documents?limit=1 -> 200
 - UptimeRobot checks /health every 5 minutes; alerts go to my email.
 - One thing that would make my live app faster on its first request: (1 line)
 
-## D06 - Data collection and ingestion
+## D06 · Collecting the corpus
 
 ### Downloader commands
 
@@ -266,8 +266,29 @@ The three-run test verifies that:
 3. No additional downloads occur once both files are complete.
 
 **Test limitation:** This is a simulated retry-and-skip test. It is not proof of recovery after killing a live download process.
+### Sources and licence checks
 
+| Source | Licence recorded in sources.csv | Verification |
+|---|---|---|
+| AWS Open Data Registry – Indian Supreme Court Judgments | CC BY 4.0 | Licence metadata recorded; verify applicable dataset terms before redistribution |
+| Supreme Court of India | Not established for this collection | Official website identified as a reference source; no licence assumed |
+
+Source references:
+- https://registry.opendata.aws/indian-supreme-court-judgments/
+- https://www.sci.gov.in/
+
+Original judgment URLs are retained in `data/sources.csv`.
 ### Dataset status
+#### Collection outcome
+
+- Successfully processed: 55 PDFs.
+- Total pages: 4,692.
+- Extraction failures: 0.
+- Low-text PDFs flagged: 0.
+- Start target: 1,000 constitutional judgments (2015–2025) — not yet met.
+- Full target: 20,000+ judgments (2000–2025) — not yet met.
+- The current collection includes older judgments and has not been fully screened for constitutional relevance or duplicates.
+- A live process-kill and resume test has not been completed; the automated tests simulate retry and skip behaviour.
 
 At the time of this report:
 

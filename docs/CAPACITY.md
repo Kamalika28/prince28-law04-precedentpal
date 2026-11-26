@@ -1,3 +1,4 @@
+<!-- generated:start -->
 # Capacity Planning Report
 
 ## Assumptions
@@ -8,7 +9,7 @@
 | Embedding price | $0.20 per million tokens |
 | Embedding dimensions | 1,024 |
 | Chunk size | 500 tokens |
-| USD to INR rate | Ã¢â€šÂ¹95.00 |
+| USD to INR rate | INR 95.00 |
 
 These are planning assumptions, not confirmed provider prices.
 
@@ -32,7 +33,7 @@ These are planning assumptions, not confirmed provider prices.
 | Estimated chunks | 2,024,517 |
 | PDF storage | 29760.69 MB |
 | Raw vector storage | 7908.27 MB |
-| Embedding cost | Ã¢â€šÂ¹19,232.91 |
+| Embedding cost | INR 19,232.91 |
 
 ## Calculation method
 
@@ -43,25 +44,33 @@ These are planning assumptions, not confirmed provider prices.
 - PDF storage uses the average size of the current sample.
 - Chunk overlap is not included.
 
-## Four engineering conclusions
+## Four engineering questions
 
-1. **Collection scale:** The current sample contains 55
-   processed PDFs. It is not yet 1,000 verified constitutional judgments.
+1. **Is embedding cost a problem?**
+   Estimated cost is INR 19,232.91 for 20,000 PDFs
+   using the assumed price of $0.20 per million tokens. This is an estimate,
+   not a confirmed provider quote.
 
-2. **Embedding budget:** The estimated cost is Ã¢â€šÂ¹19,232.91
-   under the selected price and exchange-rate assumptions. Confirm actual
-   provider pricing before running a full embedding job.
+2. **Do vectors and text fit in free Postgres?**
+   Raw vectors alone require 7908.27 MB.
+   Extracted text and database overhead add more storage.
+   Not yet verified: compare the combined requirement with the storage
+   limit shown in the Postgres provider dashboard.
 
-3. **Vector capacity:** Raw vectors require approximately
-   7908.27 MB. Database indexes, metadata, and backups
-   will increase actual storage requirements.
+3. **Which estimate is least certain, and how can it be improved?**
+   The token estimate is least certain because it uses characters divided
+   by four. Measure actual token counts with the embedding provider's
+   tokenizer on a representative sample, then update the projection.
 
-4. **Scaling strategy:** Complete legal relevance screening, remove
-   duplicates, validate extraction quality, and test a smaller batch
-   before embedding the full collection.
-
+4. **What changes if the corpus grows 10x?**
+   Storage, embedding workload, and estimated embedding cost grow roughly
+   10x if average document size stays similar.
+   Use incremental batch processing, deduplication, and storage monitoring.
 ## Limitations
 
 These are estimates, not measured production usage. They exclude
 database indexes, metadata overhead, backups, network transfer,
 and chunk overlap.
+
+
+<!-- generated:end -->

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import math
 from pathlib import Path
 
@@ -10,6 +11,16 @@ ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "data" / "raw"
 DATASET_REPORT = ROOT / "DATASET.md"
 CAPACITY_REPORT = ROOT / "docs" / "CAPACITY.md"
+SOURCES_CSV = ROOT / "data" / "sources.csv"
+SOURCES_CSV = ROOT / "data" / "sources.csv"
+
+
+def read_sources():
+    if not SOURCES_CSV.exists():
+        return []
+
+    with SOURCES_CSV.open(encoding="utf-8", newline="") as file:
+        return list(csv.DictReader(file))
 
 
 def parse_args() -> argparse.Namespace:
@@ -94,8 +105,46 @@ def write_dataset_report(
     average_characters = characters / processed if processed else 0
 
     projected_storage_mb = storage_mb * args.full_files / processed
+    sources = read_sources()
+    source_rows = "\n".join(
+        f"| [{row['source']}]({row['url']}) | {row['licence']} | {row['title']} |"
+        for row in sources
+    )
 
-    report = f"""# Dataset Report
+    report = f"""<!-- generated:start -->
+# Dataset: PrecedentPal
+
+A Supreme Court research assistant that finds precedents, separates majority
+and dissent, and checks whether a judgment was later overruled.
+
+## Collection targets
+
+- Start target: 1,000 constitutional judgments from 2015–2025.
+- Full target: 20,000+ judgments from 2000–2025.
+- Current collection: {processed} processed PDFs. This is not yet a verified
+  count of qualifying constitutional judgments.
+
+## Sources and licences
+
+| Source | Licence | Document |
+|---|---|---|
+{source_rows}
+
+## Collection rules
+
+- Respect robots.txt and applicable website terms.
+- Maximum four concurrent requests.
+- At least 0.5 seconds between requests to the same host.
+- Each answer should link to the original judgment.
+- No personal data is intentionally collected.
+
+## Known gaps
+
+- The 1,000-judgment start target has not been reached.
+- The current collection requires legal relevance and duplicate screening.
+- The source list includes judgments outside the 2015–2025 start-target period.
+
+## Collection summary
 
 ## Collection summary
 
@@ -114,9 +163,9 @@ def write_dataset_report(
 
 - Successfully processed PDFs: {processed:,}
 - Projection target: {args.full_files:,}
-- The 1,000-judgment target has not yet been reached.
+- Working scope: a smaller, quality-screened collection of relevant judgments.
+- The original 1,000-judgment target has not been met; confirm the revised scope with the trainer.
 - Downloaded PDFs still require legal relevance and duplicate screening.
-
 ## Processing quality
 
 - PDFs with very little extracted text: {len(low_text)}
@@ -156,7 +205,10 @@ def write_dataset_report(
     else:
         report += "None."
 
-    DATASET_REPORT.write_text(report, encoding="utf-8")
+    DATASET_REPORT.write_text(
+        report + "\n\n<!-- generated:end -->\n",
+        encoding="utf-8",
+    )
 
 
 def write_capacity_report(
@@ -174,7 +226,8 @@ def write_capacity_report(
 ):
     current_chunks = math.ceil(current_tokens / args.chunk_tokens)
 
-    report = f"""# Capacity Planning Report
+    report = f"""<!-- generated:start -->
+# Capacity Planning Report
 
 ## Assumptions
 
@@ -184,7 +237,7 @@ def write_capacity_report(
 | Embedding price | ${args.embed_usd:.2f} per million tokens |
 | Embedding dimensions | {args.dims:,} |
 | Chunk size | {args.chunk_tokens:,} tokens |
-| USD to INR rate | Ã¢â€šÂ¹{args.usd_inr:.2f} |
+| USD to INR rate | INR {args.usd_inr:.2f} |
 
 These are planning assumptions, not confirmed provider prices.
 
@@ -208,7 +261,7 @@ These are planning assumptions, not confirmed provider prices.
 | Estimated chunks | {projected_chunks:,} |
 | PDF storage | {projected_pdf_mb:.2f} MB |
 | Raw vector storage | {vector_storage_mb:.2f} MB |
-| Embedding cost | Ã¢â€šÂ¹{embedding_cost_inr:,.2f} |
+| Embedding cost | INR {embedding_cost_inr:,.2f} |
 
 ## Calculation method
 
@@ -219,23 +272,28 @@ These are planning assumptions, not confirmed provider prices.
 - PDF storage uses the average size of the current sample.
 - Chunk overlap is not included.
 
-## Four engineering conclusions
+## Four engineering questions
 
-1. **Collection scale:** The current sample contains {processed:,}
-   processed PDFs. It is not yet 1,000 verified constitutional judgments.
+1. **Is embedding cost a problem?**
+   Estimated cost is INR {embedding_cost_inr:,.2f} for 20,000 PDFs
+   using the assumed price of $0.20 per million tokens. This is an estimate,
+   not a confirmed provider quote.
 
-2. **Embedding budget:** The estimated cost is Ã¢â€šÂ¹{embedding_cost_inr:,.2f}
-   under the selected price and exchange-rate assumptions. Confirm actual
-   provider pricing before running a full embedding job.
+2. **Do vectors and text fit in free Postgres?**
+   Raw vectors alone require {vector_storage_mb:.2f} MB.
+   Extracted text and database overhead add more storage.
+   Not yet verified: compare the combined requirement with the storage
+   limit shown in the Postgres provider dashboard.
 
-3. **Vector capacity:** Raw vectors require approximately
-   {vector_storage_mb:.2f} MB. Database indexes, metadata, and backups
-   will increase actual storage requirements.
+3. **Which estimate is least certain, and how can it be improved?**
+   The token estimate is least certain because it uses characters divided
+   by four. Measure actual token counts with the embedding provider's
+   tokenizer on a representative sample, then update the projection.
 
-4. **Scaling strategy:** Complete legal relevance screening, remove
-   duplicates, validate extraction quality, and test a smaller batch
-   before embedding the full collection.
-
+4. **What changes if the corpus grows 10x?**
+   Storage, embedding workload, and estimated embedding cost grow roughly
+   10x if average document size stays similar.
+   Use incremental batch processing, deduplication, and storage monitoring.
 ## Limitations
 
 These are estimates, not measured production usage. They exclude
@@ -244,7 +302,10 @@ and chunk overlap.
 """
 
     CAPACITY_REPORT.parent.mkdir(parents=True, exist_ok=True)
-    CAPACITY_REPORT.write_text(report, encoding="utf-8")
+    CAPACITY_REPORT.write_text(
+        report + "\n\n<!-- generated:end -->\n",
+        encoding="utf-8",
+    )
 
 
 def main():
