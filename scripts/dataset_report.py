@@ -19,6 +19,8 @@ def read_sources():
         SOURCES_CSV,
         ROOT / "data" / "candidate_sources.csv",
         ROOT / "data" / "additional_sources.csv",
+        ROOT / "data" / "selected_additional_sources.csv",
+        ROOT / "data" / "next_116_sources.csv",
     ]
     sources = {}
 

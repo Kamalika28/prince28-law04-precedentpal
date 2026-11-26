@@ -320,3 +320,13 @@ These are estimates based on the current sample, not measured full-dataset costs
 - Restart result: downloaded=4, skipped=1, blocked=0, failed=0.
 - Result: file-level recovery confirmed; completed files are skipped on restart.
 - Limitation: partial files restart from the beginning, not from the last byte.
+
+## Day 6 — ingestion collection update
+
+- Confirmed 1,000 unique downloaded candidate URLs from 2015–2025.
+- Candidate relevance is based on screening; this is not a manually verified constitutional-judgment count.
+- Total measured collection: 1,124 PDFs, 40,098 pages, 89,854,069 characters.
+- PDF storage: 805.59 MB; processing errors: 0; low-text PDFs: 0.
+- Full 20,000-file projection: 399,706,708 tokens, 799,414 chunks, 3,122.71 MB vectors.
+- Estimated embedding cost: INR 7,594.43 using the documented assumptions.
+- Local checks: Ruff passed; 22 tests passed and 7 were skipped.
