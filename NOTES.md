@@ -330,3 +330,12 @@ These are estimates based on the current sample, not measured full-dataset costs
 - Full 20,000-file projection: 399,706,708 tokens, 799,414 chunks, 3,122.71 MB vectors.
 - Estimated embedding cost: INR 7,594.43 using the documented assumptions.
 - Local checks: Ruff passed; 22 tests passed and 7 were skipped.
+
+### Day 6 � Kill/resume verification
+
+- Test: 5 source URLs, concurrency 1, per-host delay 5 seconds.
+- Interrupted after 3 completed downloads.
+- Restart result: downloaded=2, skipped=3, blocked=0, failed=0.
+- Final result: 5/5 downloads completed.
+- Restart duration: 187.7 seconds.
+- Verified that previously completed downloads were skipped on restart.
