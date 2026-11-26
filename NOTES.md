@@ -312,3 +312,11 @@ The capacity report uses a projection of:
 - Exchange-rate assumption: INR 95 per USD
 
 These are estimates based on the current sample, not measured full-dataset costs. Actual storage and processing requirements may differ.
+
+## Day 6 - controlled kill-and-resume test
+
+- Test location: kill-test-2 (isolated from the main corpus)
+- Interrupted after 1 completed download using a controlled KeyboardInterrupt.
+- Restart result: downloaded=4, skipped=1, blocked=0, failed=0.
+- Result: file-level recovery confirmed; completed files are skipped on restart.
+- Limitation: partial files restart from the beginning, not from the last byte.
