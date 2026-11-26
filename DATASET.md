@@ -8,7 +8,7 @@ and dissent, and checks whether a judgment was later overruled.
 
 - Start target: 1,000 constitutional judgments from 2015–2025.
 - Full target: 20,000+ judgments from 2000–2025.
-- Current collection: 1000 processed PDFs. This is not yet a verified
+- Current collection: 1124 processed PDFs. This is not yet a verified
   count of qualifying constitutional judgments.
 
 ## Sources and licences
@@ -1015,6 +1015,130 @@ and dissent, and checks whether a judgment was later overruled.
 | [AWS Open Data](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2014/english/2014_8_228_238_EN.pdf) | CC BY 4.0 | STATE OF PUNJAB & ORS. versus RAFIQ MASIH (WHITE WASHER) |
 | [AWS Open Data](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2014/english/2014_8_785_794_EN.pdf) | CC BY 4.0 | JAFAR IMAM NAQVI versus ELECTION COMMISSION OF INDIA |
 | [AWS Open Data](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2014/english/2014_8_871_879_EN.pdf) | CC BY 4.0 | ROHTAS BHANKHAR & ORS. versus UNION OF INDIA & ANR. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2018/english/2018_14_299_315_EN.pdf) | CC BY 4.0 | LOUREMBAM DEBEN SINGH & ORS. versus UNION OF INDIA & ORS. ETC. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2018/english/2018_9_1056_1059_EN.pdf) | CC BY 4.0 | VILAS DINKAR BHAT versus STATE OF MAHARASHTRA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2021/english/2021_6_661_672_EN.pdf) | CC BY 4.0 | SAYYED AYAZ ALI versus PRAKASH G GOYAL & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2023/english/2023_4_18_40_EN.pdf) | CC BY 4.0 | M/S SOUTH INDIAN BANK LTD. & ORS. versus NAVEEN MATHEW PHILIP & ANR. ETC. ETC. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2023/english/2023_13_905_923_EN.pdf) | CC BY 4.0 | STATE OF U.P. & ANR versus EHSAN & ANR |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2016/english/2016_3_310_322_EN.pdf) | CC BY 4.0 | BAKSHI SECURITY AND PERSONNEL SERVICES PVT. LTD versus DEVKISHAN COMPUTED PVT. LTD. AND ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2016/english/2016_1_194_206_EN.pdf) | CC BY 4.0 | DHARAM PAL versus STATE OF HARYANA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2021/english/2021_12_371_474_EN.pdf) | CC BY 4.0 | UNION OF INDIA & ORS. versus M/S. RAJ GROW IMPEX LLP & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/english/2024_10_445_492_EN.pdf) | CC BY 4.0 | KHALSA UNIVERSITY AND ANOTHER  versus THE STATE OF PUNJAB AND ANOTHER |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2016/english/2016_12_154_173_EN.pdf) | CC BY 4.0 | BACHPAN BACHAO ANDOLAN versus UNION OF INDIA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2017/english/2017_12_337_343_EN.pdf) | CC BY 4.0 | CAMPAIGN FOR JUDICIAL ACCOUNTABILITY  AND REFORMS versus UNION OF INDIA AND OTHERS |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2016/english/2016_9_295_310_EN.pdf) | CC BY 4.0 | SWARAJ ABHIYAN - (II) versus UNION OF INDIA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2016/english/2016_9_968_982_EN.pdf) | CC BY 4.0 | KARMA DORJEE & ORS versus UNION OF INDIA AND ORS |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2020/english/2020_13_571_620_EN.pdf) | CC BY 4.0 | STATE OF U.P. versus SUDHIR KUMAR SINGH AND ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2020/english/2020_11_425_470_EN.pdf) | CC BY 4.0 | CENTRE FOR PUBLIC INTEREST LITIGATION versus UNION OF INDIA |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2019/english/2019_4_183_189_EN.pdf) | CC BY 4.0 | KRISHNA NAND SHUKLA versus DIRECTOR OF HIGHER EDUCATION ALLAHABAD & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2021/english/2021_3_364_373_EN.pdf) | CC BY 4.0 | JUSTICE V. ESWARAIAH (RETD.) versus UNION OF INDIA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2021/english/2021_1_644_646_EN.pdf) | CC BY 4.0 | MR.SURENDER KUMAR GUPTA AND OTHERS versus J M HOUSING LIMITED AND OTHERS |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2021/english/2021_1_209_228_EN.pdf) | CC BY 4.0 | DIPIKA JAGATRAM SAHANI versus UNION OF INDIA AND ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2019/english/2019_5_444_451_EN.pdf) | CC BY 4.0 | UNION OF INDIA & ORS. versus ALL INDIA TRADE UNION CONGRESS & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2019/english/2019_9_769_775_EN.pdf) | CC BY 4.0 | STATE BANK OF INDIA & ORS. versus ATINDRA NATH BHATTACHARYYA & ANR. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2019/english/2019_8_137_150_EN.pdf) | CC BY 4.0 | SHREE SHREE RAM JANKI JI ASTHAN TAPOVAN MANDIR & ANR. versus THE STATE OF JHARKHAND & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2019/english/2019_7_295_297_EN.pdf) | CC BY 4.0 | RAJASTHAN STATE ROADWAYS TRANSPORT CORPORATION versus PARAMJEET SINGH |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2019/english/2019_15_1_15_EN.pdf) | CC BY 4.0 | ABCD versus UNION OF INDIA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2019/english/2019_3_1036_1046_EN.pdf) | CC BY 4.0 | MUNICIPAL CORPORATION OF GREATER MUMBAI & ORS. versus RAFIQUNNISA M. KHALIFA (DECEASED) THROUGH HIS LEGAL HEIR MR. MOHD. MUQUEEN QURESHI & ANR. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2023/english/2023_11_403_468_EN.pdf) | CC BY 4.0 | HARENDRA RAI  versus THE STATE OF BIHAR & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2023/english/2023_12_271_276_EN.pdf) | CC BY 4.0 | PANCHAYAT QURESHIAN AND ANOTHER versus STATE OF RAJASTHAN AND OTHERS |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2023/english/2023_3_1069_1083_EN.pdf) | CC BY 4.0 | SHRAMJEEVI COOPERATIVE HOUSING SOCIETY LTD. versus DINESH JOSHI & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/english/2025_5_2618_2647_EN.pdf) | CC BY 4.0 | VANASHAKTI versus UNION OF INDIA |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/english/2025_5_961_973_EN.pdf) | CC BY 4.0 | S. JANAKI IYER versus UNION OF INDIA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/english/2024_11_722_785_EN.pdf) | CC BY 4.0 | IN RE: DIRECTIONS IN THE MATTER OF DEMOLITION OF STRUCTURES  versus |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_4_864_869_EN.pdf) | CC BY 4.0 | THE INSPECTOR OF PANCHAYATS AND DISTRICT COLLECTOR, SALEM versus S. ARICHANDRAN & ORS |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_18_625_647_EN.pdf) | CC BY 4.0 | CDR AMIT KUMAR SHARMA ETC versus UNION OF INDIA & ORS ETC |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_6_727_736_EN.pdf) | CC BY 4.0 | SWAMINATHAN KUNCHU ACHARYA versus STATE OF GUJARAT & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2023/english/2023_2_560_581_EN.pdf) | CC BY 4.0 | OFFICE OF THE ODISHA LOKAYUKTA versus DR. PRADEEP KUMAR PANIGRAHI AND OTHERS |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2023/english/2023_7_772_826_EN.pdf) | CC BY 4.0 | AURELIANO FERNANDES versus STATE OF GOA AND OTHERS |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2023/english/2023_10_440_456_EN.pdf) | CC BY 4.0 | SINGRAULI SUPER THERMAL POWER STATION versus ASHWANI KUMAR DUBEY & ORS |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2016/english/2016_3_547_550_EN.pdf) | CC BY 4.0 | SANKALP CHARITABLE TRUST AND ANR. versus UNION OF INDJA AND ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2016/english/2016_8_606_691_EN.pdf) | CC BY 4.0 | BOARD OF CONTROL FOR CRICKET versus CRICKET ASSOCIATION OF BIHAR & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2016/english/2016_4_849_866_EN.pdf) | CC BY 4.0 | SWAMI ACHYUTANAND TIRTH & ORS. versus UNION OF INDIA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2017/english/2017_11_733_745_EN.pdf) | CC BY 4.0 | MADHA MEDICAL COLLEGE AND RESEARCH INSTT. THR. ITS MANAGING DIRECTOR versus UNION OF INDIA AND ANR. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2017/english/2017_1_401_405_EN.pdf) | CC BY 4.0 | CENTRE FOR PUBLIC INTEREST LITIGATION versus HOUSING & URBAN DEVELOPMENT CORPORATION LTD. & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2016/english/2016_3_516_532_EN.pdf) | CC BY 4.0 | COMMISS"IONER OF INCOME TAX. MUMBAI versus AMITABH BACHCHAN |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2016/english/2016_9_331_341_EN.pdf) | CC BY 4.0 | SWARAJ ABHIYAN - (IV) versus UNION OF INDIA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2015/english/2015_1_989_1013_EN.pdf) | CC BY 4.0 | KANDIVALI COOPERATIVE INDUSTRIAL ESTATE AND  ANOTHER versus MUNICIPAL CORPORATION OF GREATER MUMBAI AND  OTHERS |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2015/english/2015_11_51_64_EN.pdf) | CC BY 4.0 | BRIJ BIHARI SINGH versus BIHAR STATE FINANCIAL CORPORATION AND OTHERS |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2016/english/2016_7_86_101_EN.pdf) | CC BY 4.0 | CHAMOLI DISTRICT CO-OPERATIVE BANK LTD. THROUGH  ITS SECRETARY/ MAHAPRANDHAK & ANR. versus RAGHUNATH SINGH RANA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2016/english/2016_9_257_294_EN.pdf) | CC BY 4.0 | SWARAJ ABHIYAN - (I) versus UNION OF INDIA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2016/english/2016_9_311_330_EN.pdf) | CC BY 4.0 | SWARAJ ABHIYAN - (ILL) versus UNION OF INDIA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2018/english/2018_3_1011_1018_EN.pdf) | CC BY 4.0 | NANDAKUMAR & ANR. versus THE STATE OF KERALA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2018/english/2018_4_875_876_EN.pdf) | CC BY 4.0 | GANGA MALIK versus UNION OF INDIA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2018/english/2018_12_78_91_EN.pdf) | CC BY 4.0 | RE-INHUMAN CONDITIONS IN 1382 PRISONS versus . |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2019/english/2019_1_88_93_EN.pdf) | CC BY 4.0 | DIGI CABLE NETWORK (INDIA) PVT. LTD. versus UNION OF INDIA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2019/english/2019_8_1180_1189_EN.pdf) | CC BY 4.0 | STATE OF BIHAR AND ORS. versus DILIP KUMAR AND ANR |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2018/english/2018_14_1022_1035_EN.pdf) | CC BY 4.0 | SRI MAHABIR PROSAD CHOUDHARY versus M/S. OCTAVIUS TEA AND INDUSTRIES LTD. AND ANR. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2018/english/2018_14_970_973_EN.pdf) | CC BY 4.0 | JOHRA & ORS. versus STATE OF HARYANA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2018/english/2018_14_403_414_EN.pdf) | CC BY 4.0 | THE STATE OF BIHAR AND ORS. versus KIRTI NARAYAN PRASAD |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2018/english/2018_14_1230_1235_EN.pdf) | CC BY 4.0 | INHUMAN CONDITIONS IN 1382 PRISONS I.A. NO. 26542 OF 2018 IN WRIT PETITION (CIVIL) NO. 406 OF 2013 versus . |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2018/english/2018_9_909_911_EN.pdf) | CC BY 4.0 | FOOD CORPORATION OF INDIA & ANR. versus HEAD LOAD LABOUR CONGRESS (REGN. NO336/85) & ANR. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2018/english/2018_4_955_1002_EN.pdf) | CC BY 4.0 | SHAFIN JAHAN versus ASOKAN K. M. & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2018/english/2018_4_1012_1032_EN.pdf) | CC BY 4.0 | UNION OF INDIA AND ANR. versus RAGHUWAR PAL SINGH |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_13_1_20_EN.pdf) | CC BY 4.0 | THE STATE OF RAJASTHAN AND ANOTHER versus ULTRATECH CEMENT LTD |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_16_672_676_EN.pdf) | CC BY 4.0 | LUCKNOW DEVELOPMENT AUTHORITY versus MEHDI HASAN (DECEASED) THR. LRS. & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_4_1103_1127_EN.pdf) | CC BY 4.0 | RAM CHANDER versus THE STATE OF CHHATTISGARH & ANR. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_11_184_202_EN.pdf) | CC BY 4.0 | B.L.A. INDUSTRIES PRIVATE LIMITED versus UNION OF INDIA AND ANOTHER |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_18_407_426_EN.pdf) | CC BY 4.0 | SANDHYA PANT versus DEEPAK RUWALI & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_15_547_568_EN.pdf) | CC BY 4.0 | D. SWAMY versus KARNATAKA STATE POLLUTION CONTROL BOARD AND ORS |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_3_584_590_EN.pdf) | CC BY 4.0 | NIMS UNIVERSITY versus UNION OF INDIA AND OTHERS |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_3_51_60_EN.pdf) | CC BY 4.0 | UNION OF INDIA AND OTHERS versus M. DURAISAMY |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_3_276_283_EN.pdf) | CC BY 4.0 | IN RE: EXPEDITIOUS TRIAL OF CASES UNDER SECTION 138 OF N.I. ACT 1881 versus . |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_15_841_846_EN.pdf) | CC BY 4.0 | PRAMOD SINGH KIRAR versus STATE OF MADHYA PRADESH & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_14_1138_1166_EN.pdf) | CC BY 4.0 | UNION OF INDIA & ORS versus M/S. WILLOWOOD CHEMICALS PVT. LTD. & ANR. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_7_231_240_EN.pdf) | CC BY 4.0 | RAM KUMAR versus STATE OF UTTAR PRADESH AND ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_9_885_943_EN.pdf) | CC BY 4.0 | INDIAN EX SERVICEMEN MOVEMENT & ORS. versus UNION OF INDIA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_14_1060_1069_EN.pdf) | CC BY 4.0 | DELHI DEVELOPMENT AUTHORITY versus RAJAN SOOD & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_17_236_262_EN.pdf) | CC BY 4.0 | NATIONAL PETROLEUM CONSTRUCTION COMPANY versus DEPUTY COMMISSIONER OF INCOME TAX, CIRCLE 2(2), INTERNATIONAL TAXATION, NEW DELHI & ANR. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_12_223_245_EN.pdf) | CC BY 4.0 | AMARENDRA KUMAR PANDEY versus UNION OF INDIA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_19_323_342_EN.pdf) | CC BY 4.0 | KAVI ARORA versus SECURITIES & EXCHANGE BOARD OF INDIA |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_12_1113_1166_EN.pdf) | CC BY 4.0 | HARBHAJAN SINGH versus STATE OF HARYANA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_6_871_875_EN.pdf) | CC BY 4.0 | M/S MITRA S.P. (P) LTD. & ANR. versus DHIREN KUMAR |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_16_358_398_EN.pdf) | CC BY 4.0 | THE KOLHAPUR MUNICIPAL CORPORATION & ORS. versus VASANT MAHADEV PATIL (DEAD) THROUGH L.R.S & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_19_343_359_EN.pdf) | CC BY 4.0 | STATE OF ODISHA & ORS. ETC.ETC versus SULEKH CHANDRA PRADHAN ETC.ETC. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_3_184_189_EN.pdf) | CC BY 4.0 | RESHMA SULTANA versus THE STATE OF KARNATAKA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_3_250_254_EN.pdf) | CC BY 4.0 | AYODHYA FAIZABAD DEVELOPMENT AUTHORITY AND ANR. versus RAM NEWAJ AND OTHERS |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_17_1012_1057_EN.pdf) | CC BY 4.0 | UNION OF INDIA & OTHERS versus BHARAT FORGE LTD. & ANOTHER |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_17_759_764_EN.pdf) | CC BY 4.0 | GOVT OF NCT OF DELHI THROUGH SECRETARY, LAND AND BUILDING DEPARTMENT AND ANR versus RAM PRAKASH SEHRAWAT AND ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_14_973_984_EN.pdf) | CC BY 4.0 | SUNITA BURMAN versus THE COMMISSIONER, M.P. HOUSING AND INFRASTRUCTURE DEVELOPMENT BOARD AND OTHERS |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_16_543_564_EN.pdf) | CC BY 4.0 | IN RE: FRAMING GUIDELINES REGARDING POTENTIAL MITIGATING CIRCUMSTANCES TO BE CONSIDERED WHILE IMPOSING DEATH SENTENCES versus  IN RE: FRAMING GUIDELINES REGARDING POTENTIAL MITIGATING CIRCUMSTANCES TO BE CONSIDERED WHILE IMPOSING DEATH SENTENCES |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_8_854_871_EN.pdf) | CC BY 4.0 | ISTKAR versus THE STATE OF UTTAR PRADESH & ANR. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_3_174_179_EN.pdf) | CC BY 4.0 | ANJANA SARAIYA versus THE STATE OF U.P. & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_3_5_21_EN.pdf) | CC BY 4.0 | MALLADA K SRI RAM versus THE STATE OF TELANGANA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_15_57_103_EN.pdf) | CC BY 4.0 | MS. X versus REGISTRAR GENERAL, HIGH COURT OF MADHYA PRADESH AND ANOTHER |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_7_101_113_EN.pdf) | CC BY 4.0 | NET RAM YADAV versus THE STATE OF RAJASTHAN & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_6_918_929_EN.pdf) | CC BY 4.0 | SHIKHAR & ANR. versus NATIONAL BOARD OF EXAMINATION & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_4_808_816_EN.pdf) | CC BY 4.0 | DR R. DINESH KUMAR REDDY & ORS versus MEDICAL COUNSELLING COMMITTEE (MCC) & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_17_1122_1166_EN.pdf) | CC BY 4.0 | IN RE: T.N. GODAVARMAN THIRUMULPAD versus UNION OF INDIA AND ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_1_545_549_EN.pdf) | CC BY 4.0 | M.P. HOUSING BOARD & ANR. versus SATISH KUMAR BATRA AND ORS |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_3_95_100_EN.pdf) | CC BY 4.0 | DR. JOE JOSEPH & ORS. versus STATE OF TAMIL NADU & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_13_988_995_EN.pdf) | CC BY 4.0 | SOUTH DELHI MUNICIPAL CORPORATION versus FEDERATION OF RESIDENTS WELFARE ASSOCIATION, VASANT KUNJ (REGD.) AND ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_2_1065_1079_EN.pdf) | CC BY 4.0 | HARISH CHANDRA SHRIVASTAVA versus THE STATE OF BIHAR AND OTHERS |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_4_1084_1094_EN.pdf) | CC BY 4.0 | EASTERN COALFIELDS LIMITED & ORS. versus RABINDRA KUMAR BHARTI |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_7_1078_1089_EN.pdf) | CC BY 4.0 | DR. ASTHA GOEL AND ORS. versus THE MEDICAL COUNSELLING COMMITTEE & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_17_54_91_EN.pdf) | CC BY 4.0 | SWAMI SAMARTH SUGARS AND AGRO INDUSTRIES LTD. versus LOKNETE MARUTRAO GHULE PATIL DNYANESHWAR SAHAKARI SAKHAR KARKHANA LTD & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_3_134_138_EN.pdf) | CC BY 4.0 | THE STATE OF MAHARASHTRA versus SHAIKH MAHEMUD & ANR. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_4_692_706_EN.pdf) | CC BY 4.0 | STATE OF RAJASTHAN & ORS. versus CHETAN JEFF |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_16_349_357_EN.pdf) | CC BY 4.0 | COUNCIL OF ARCHITECTURE versus THE ACADEMIC SOCIETY OF ARCHITECTS (TASA) & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_17_802_808_EN.pdf) | CC BY 4.0 | GOVT. OF NCT OF DELHI versus MOHD. MAQBOOL & ORS |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_16_598_601_EN.pdf) | CC BY 4.0 | DELHI DEVELOPMENT AUTHORITY versus KRISHAN LAL ARORA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_8_768_776_EN.pdf) | CC BY 4.0 | KERALA STATE ELECTRICITY BOARD LTD. & ANR versus RUBFILA INTERNATIONAL LIMITED & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_8_705_727_EN.pdf) | CC BY 4.0 | SHAKEEL AHMED versus UNION OF INDIA & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_8_475_580_EN.pdf) | CC BY 4.0 | RASHIDUL JAFAR @ CHOTA versus STATE OF UTTAR PRADESH & ANR |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_3_569_574_EN.pdf) | CC BY 4.0 | BAIJU K G & ORS versus DR V P JOY |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_17_829_834_EN.pdf) | CC BY 4.0 | DELHI DEVELOPMENT AUTHORITY versus DAYANAND & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_1_696_699_EN.pdf) | CC BY 4.0 | SHARAFAT ALI versus STATE OF UTTAR PRADESH AND ANOTHER |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_13_80_85_EN.pdf) | CC BY 4.0 | STATE OF UTTAR PRADESH AND OTHERS versus ANAND ENGINEERING COLLEGE AND ANOTHER |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_8_745_755_EN.pdf) | CC BY 4.0 | SUNEETHA NARREDDY & ANOTHER versus THE CENTRAL BUREAU OF INVESTIGATION AND OTHERS |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_6_1138_1142_EN.pdf) | CC BY 4.0 | ASHWINI KUMAR UPADHYAY versus UNION OF INDIA AND ANR. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_3_362_365_EN.pdf) | CC BY 4.0 | SHRI M.L. PATIL (DEAD) THROUGH LRS versus THE STATE OF GOA AND ANR. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_16_855_885_EN.pdf) | CC BY 4.0 | M/S PAHWA PLASTICS PVT. LTD. AND ANR versus DASTAK NGO AND ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_4_773_778_EN.pdf) | CC BY 4.0 | INDEPENDENT SCHOOLS’ ASSOCIATION CHANDIGARH (REGD.) & ORS. versus UNION OF INDIA & ORS |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_2_1164_1182_EN.pdf) | CC BY 4.0 | DELHI DEVELOPMENT AUTHORITY versus BHIM SAIN GOEL AND ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_17_360_375_EN.pdf) | CC BY 4.0 | BHARAT PETROLEUM CORPORATION LTD. (BPCL) & ORS versus NISAR AHMED GANAI & ORS. |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_14_435_445_EN.pdf) | CC BY 4.0 | IN RE FELLING OF TREES IN AAREY FOREST (MAHARASHTRA) versus IN RE FELLING OF TREES IN AAREY FOREST (MAHARASHTRA) |
+| [Indian Supreme Court Judgments S3](https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2022/english/2022_16_635_641_EN.pdf) | CC BY 4.0 | CENTRAL BUREAU OF INVESTIGATION versus P.S. JAYAPRAKASH ETC. ETC. |
 
 ## Collection rules
 
@@ -1034,18 +1158,18 @@ and dissent, and checks whether a judgment was later overruled.
 
 | Metric | Result |
 |---|---:|
-| PDF files found | 1,000 |
-| PDFs processed successfully | 1,000 |
-| Total pages | 37,745 |
-| Extracted characters | 84,814,490 |
-| Current PDF storage | 753.15 MB |
-| Estimated current tokens | 21,203,622 |
-| Average pages per PDF | 37.7 |
-| Average characters per PDF | 84,814 |
+| PDF files found | 1,124 |
+| PDFs processed successfully | 1,124 |
+| Total pages | 40,098 |
+| Extracted characters | 89,854,069 |
+| Current PDF storage | 805.59 MB |
+| Estimated current tokens | 22,463,517 |
+| Average pages per PDF | 35.7 |
+| Average characters per PDF | 79,941 |
 
 ## Collection progress
 
-- Successfully processed PDFs: 1,000
+- Successfully processed PDFs: 1,124
 - Projection target: 20,000
 - Working scope: 1,000 downloaded judgment PDFs, pending legal relevance screening.
 - The 1,000-PDF collection target is reached only if 1,000 PDFs process successfully.
@@ -1061,10 +1185,10 @@ and dissent, and checks whether a judgment was later overruled.
 
 | Metric | Current sample | Projection |
 |---|---:|---:|
-| Pages | 37,745 | 754,900 |
-| Estimated tokens | 21,203,622 | 424,072,440 |
-| Chunks | 42,408 | 848,145 |
-| PDF storage | 753.15 MB | 15063.10 MB |
+| Pages | 40,098 | 713,488 |
+| Estimated tokens | 22,463,517 | 399,706,708 |
+| Chunks | 44,928 | 799,414 |
+| PDF storage | 805.59 MB | 14334.34 MB |
 
 ## Limitations
 

@@ -17,23 +17,23 @@ These are planning assumptions, not confirmed provider prices.
 
 | Metric | Result |
 |---|---:|
-| PDFs found | 1,000 |
-| PDFs processed | 1,000 |
-| Pages | 37,745 |
-| Estimated tokens | 21,203,622 |
-| Estimated chunks | 42,408 |
-| PDF storage | 753.15 MB |
+| PDFs found | 1,124 |
+| PDFs processed | 1,124 |
+| Pages | 40,098 |
+| Estimated tokens | 22,463,517 |
+| Estimated chunks | 44,928 |
+| PDF storage | 805.59 MB |
 
 ## Projected full corpus
 
 | Metric | Projection |
 |---|---:|
 | PDFs | 20,000 |
-| Estimated tokens | 424,072,440 |
-| Estimated chunks | 848,145 |
-| PDF storage | 15063.10 MB |
-| Raw vector storage | 3313.07 MB |
-| Embedding cost | INR 8,057.38 |
+| Estimated tokens | 399,706,708 |
+| Estimated chunks | 799,414 |
+| PDF storage | 14334.34 MB |
+| Raw vector storage | 3122.71 MB |
+| Embedding cost | INR 7,594.43 |
 
 ## Calculation method
 
@@ -47,12 +47,12 @@ These are planning assumptions, not confirmed provider prices.
 ## Four engineering questions
 
 1. **Is embedding cost a problem?**
-   Estimated cost is INR 8,057.38 for 20,000 PDFs
+   Estimated cost is INR 7,594.43 for 20,000 PDFs
    using the assumed price of $0.20 per million tokens. This is an estimate,
    not a confirmed provider quote.
 
 2. **Do vectors and text fit in free Postgres?**
-   Raw vectors alone require 3313.07 MB.
+   Raw vectors alone require 3122.71 MB.
    Extracted text and database overhead add more storage.
    Not yet verified: compare the combined requirement with the storage
    limit shown in the Postgres provider dashboard.
