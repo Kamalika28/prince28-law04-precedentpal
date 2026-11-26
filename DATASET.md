@@ -1171,8 +1171,17 @@ and dissent, and checks whether a judgment was later overruled.
 
 - Successfully processed PDFs: 1,124
 - Projection target: 20,000
-- Working scope: 1,000 downloaded judgment PDFs, pending legal relevance screening.
-- The 1,000-PDF collection target is reached only if 1,000 PDFs process successfully.
+### Day 6 verified collection
+
+- Selected candidate URLs: 1,000
+- Downloaded selected files: 1,000
+- Missing selected downloads: 0
+- Unique SHA-256 hashes: 1,000
+- Year coverage: 2015–2025
+- Licence recorded: CC BY 4.0 for all 1,000 selected records
+- Total measured collection: 1,124 PDFs
+- Constitutional relevance: screened candidates, not 1,000 manually verified qualifying judgments
+- Live restart test: downloaded=2, skipped=3, blocked=0, failed=0
 - Downloaded PDFs still require legal relevance and duplicate screening.
 ## Processing quality
 

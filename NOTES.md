@@ -285,11 +285,10 @@ Original judgment URLs are retained in `data/sources.csv`.
 - Total pages: 4,692.
 - Extraction failures: 0.
 - Low-text PDFs flagged: 0.
-- Start target: 1,000 constitutional judgments (2015–2025) — not yet met.
+Start target: 1,000 constitutional candidates (2015–2025) — 1,000 distinct downloaded PDFs verified; legal relevance screening remains a limitation.
 - Full target: 20,000+ judgments (2000–2025) — not yet met.
 - The current collection includes older judgments and has not been fully screened for constitutional relevance or duplicates.
-- A live process-kill and resume test has not been completed; the automated tests simulate retry and skip behaviour.
-
+Historical status: the live process-kill and resume test was not yet completed at this stage. The later controlled test completed successfully.
 At the time of this report:
 
 - PDFs found: 55
@@ -298,8 +297,8 @@ At the time of this report:
 - Extracted characters: 11,134,842
 - Estimated tokens: 2,783,710
 - PDF storage: 81.84 MB
-
-The 1,000-judgment target has not yet been reached. Downloaded PDFs still require legal relevance screening and duplicate checks.
+Historical status: the 1,000-judgment target had not yet been reached at this stage. The later collection verification confirmed 1,000 distinct candidate PDFs.
+Downloaded PDFs still require legal relevance screening and duplicate checks.
 
 ### Capacity estimate
 
@@ -331,7 +330,7 @@ These are estimates based on the current sample, not measured full-dataset costs
 - Estimated embedding cost: INR 7,594.43 using the documented assumptions.
 - Local checks: Ruff passed; 22 tests passed and 7 were skipped.
 
-### Day 6 � Kill/resume verification
+### Day 6   Kill/resume verification
 
 - Test: 5 source URLs, concurrency 1, per-host delay 5 seconds.
 - Interrupted after 3 completed downloads.
