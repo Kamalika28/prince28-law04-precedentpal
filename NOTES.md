@@ -338,3 +338,17 @@ These are estimates based on the current sample, not measured full-dataset costs
 - Final result: 5/5 downloads completed.
 - Restart duration: 187.7 seconds.
 - Verified that previously completed downloads were skipped on restart.
+
+### Day 6 — Free PostgreSQL verification
+
+- Provider: Neon PostgreSQL
+- Project: prince28-law04-precedentpal
+- Plan: Free plan (confirmed in Neon dashboard)
+- Region: AWS Asia Pacific 1 (Singapore)
+- Default branch: production
+- Branches: 1
+- Database size: 7,872 kB (7.69 MiB)
+- Database bytes used: 8,060,928
+- Verification: SELECT pg_database_size(current_database());
+- Dashboard usage: 0 CU-hrs compute, 0 kB storage,
+  0 kB history, 0 kB network transfer.
