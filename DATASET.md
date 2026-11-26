@@ -1215,3 +1215,43 @@ None detected using the 100-character threshold.
 None.
 
 <!-- generated:end -->
+### Source terms
+
+Source: Indian Supreme Court Judgments
+Provider: Dattam Labs / AWS Open Data Registry
+Licence: CC BY 4.0
+Registry: https://registry.opendata.aws/indian-supreme-court-judgments/
+Licence: https://creativecommons.org/licenses/by/4.0/
+
+Access method: Public AWS S3 bucket, using the documented
+unsigned access method.
+
+Attribution: Indian Supreme Court Judgments, Dattam Labs,
+AWS Open Data Registry, CC BY 4.0.
+
+Each record retains its original source URL.
+Downloads use bounded concurrency, delays, retries and
+resumable manifests. No direct court-portal scraping is used.
+### Day 6 source terms and access
+
+- Source: Indian Supreme Court Judgments public S3 dataset.
+- Dataset licence: CC BY 4.0.
+- Licence: https://creativecommons.org/licenses/by/4.0/
+- Dataset bucket: s3://indian-supreme-court-judgments/
+- Preserve the original source URL, title, and licence for attribution.
+- Check the applicable source terms and robots policy before automated fetching.
+- Respect robots restrictions, rate limits, and access controls.
+- Do not treat a public bucket or a dataset licence as permission to bypass access restrictions.
+- The 1,000 selected downloads are constitutional candidates; legal relevance requires separate validation.
+
+### Day 6 — Source access verification
+
+- Source: Indian Supreme Court Judgments public S3 dataset.
+- Dataset licence: CC BY 4.0.
+- Licence: https://creativecommons.org/licenses/by/4.0/
+- Robots URL: https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/robots.txt
+- Checked: 2026-11-26 23:17:49
+- HEAD response: HTTP 404 Not Found.
+- No robots.txt file was returned by this request.
+- This response does not establish unrestricted access permission.
+- The downloader uses rate limits, retries, and source attribution.
