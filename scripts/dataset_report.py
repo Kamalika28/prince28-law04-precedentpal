@@ -12,15 +12,27 @@ RAW_DIR = ROOT / "data" / "raw"
 DATASET_REPORT = ROOT / "DATASET.md"
 CAPACITY_REPORT = ROOT / "docs" / "CAPACITY.md"
 SOURCES_CSV = ROOT / "data" / "sources.csv"
-SOURCES_CSV = ROOT / "data" / "sources.csv"
 
 
 def read_sources():
-    if not SOURCES_CSV.exists():
-        return []
+    source_files = [
+        SOURCES_CSV,
+        ROOT / "data" / "candidate_sources.csv",
+        ROOT / "data" / "additional_sources.csv",
+    ]
+    sources = {}
 
-    with SOURCES_CSV.open(encoding="utf-8", newline="") as file:
-        return list(csv.DictReader(file))
+    for source_file in source_files:
+        if not source_file.exists():
+            continue
+
+        with source_file.open(encoding="utf-8-sig", newline="") as file:
+            for row in csv.DictReader(file):
+                url = row["url"].strip()
+                if url:
+                    sources[url] = row
+
+    return list(sources.values())
 
 
 def parse_args() -> argparse.Namespace:
@@ -140,11 +152,9 @@ and dissent, and checks whether a judgment was later overruled.
 
 ## Known gaps
 
-- The 1,000-judgment start target has not been reached.
+- Downloaded PDF volume is measured separately from legal relevance.
 - The current collection requires legal relevance and duplicate screening.
 - The source list includes judgments outside the 2015–2025 start-target period.
-
-## Collection summary
 
 ## Collection summary
 
@@ -163,8 +173,8 @@ and dissent, and checks whether a judgment was later overruled.
 
 - Successfully processed PDFs: {processed:,}
 - Projection target: {args.full_files:,}
-- Working scope: a smaller, quality-screened collection of relevant judgments.
-- The original 1,000-judgment target has not been met; confirm the revised scope with the trainer.
+- Working scope: 1,000 downloaded judgment PDFs, pending legal relevance screening.
+- The 1,000-PDF collection target is reached only if 1,000 PDFs process successfully.
 - Downloaded PDFs still require legal relevance and duplicate screening.
 ## Processing quality
 
