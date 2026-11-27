@@ -25,3 +25,4 @@ data/**/*.pdf
 data/metadata/
 data/sample_judgments/
 data/screening/
+eval/cache/

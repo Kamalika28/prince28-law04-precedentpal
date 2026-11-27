@@ -538,3 +538,49 @@ Status: The incorrect extraction is verified. The proposed fix has not yet been 
 - Average per answered question: Rs ___ (my Day 1 target: under Rs 0.50)
 
 ### One thing that went wrong today, and how I fixed it
+
+## D09 · Prompt versions compared
+
+<!-- prompts:start -->
+
+| Prompt version | Correct | Accuracy | Invalid replies | Avg tokens in |
+|---|---|---|---|---|
+| classify_v1 | 13/20 | 65% | 1 | 111 |
+| classify_v2 | 19/20 | 95% | 0 | 282 |
+| classify_v3 | 19/20 | 95% | 0 | 363 |
+| classify_v4 | 20/20 | 100% | 0 | 396 |
+
+<!-- prompts:end -->
+
+## Day 9 — Prompt comparison and metadata extraction
+
+### Classification prompt evaluation
+
+| Prompt | Correct | Accuracy |
+|---|---:|---:|
+| v1 | 13/20 | 65% |
+| v2 | 19/20 | 95% |
+| v3 | 19/20 | 95% |
+| v4 | 20/20 | 100% |
+
+The test set contained 9 docs, 6 personal, and 5 off_topic questions.
+V4 clarified that predictions about a particular moot problem are personal.
+The 100% result applies to this 20-question test set only.
+
+### Metadata extraction trial
+
+- Prompt: extract_v1
+- Corpus: 1,144 documents
+- Attempted: 50
+- Successfully saved: 50
+- Failed: 0
+- Repaired: 5
+- Model observed in saved records: openai/gpt-oss-20b
+- Total model cost: INR 2.383315
+- Tokens for the 45-document run: 107,770 input and 47,067 output
+- Six 60-second waits occurred during the 45-document run when no model could answer.
+- Saved metadata count verified in the extraction database: 50
+- Three saved records were inspected for metadata structure and obvious inconsistencies.
+
+Validation enforces the metadata schema but does not guarantee factual accuracy.
+The trial did not extract the remaining 1,094 documents.
