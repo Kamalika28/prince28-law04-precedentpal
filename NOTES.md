@@ -584,3 +584,14 @@ The 100% result applies to this 20-question test set only.
 
 Validation enforces the metadata schema but does not guarantee factual accuracy.
 The trial did not extract the remaining 1,094 documents.
+### Day 9 — Manual metadata verification
+
+Five extracted records were checked against published Supreme Court judgment text.
+
+- Rutu Mihir Panchal — verified; SCR citation missing opening bracket.
+- Ratilal Jhaverbhai Parmar — verified.
+- Neha Chandrakant Shroff — verified; correctly classified as an order.
+- State of Haryana v. Jai Singh — verified.
+- Satender Kumar Antil — verified; title extraction requires correction and neutral citation should be added.
+
+Result: 5/5 records checked. Two metadata quality issues identified for follow-up. Production API verified with 1,144 documents and 45 extracted judgments.
