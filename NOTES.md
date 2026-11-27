@@ -204,7 +204,7 @@ ok   /v1/documents?limit=1 -> 200
 - UptimeRobot checks /health every 5 minutes; alerts go to my email.
 - One thing that would make my live app faster on its first request: (1 line)
 
-## D06 · Collecting the corpus
+## D06 ┬╖ Collecting the corpus
 
 ### Downloader commands
 
@@ -270,7 +270,7 @@ The three-run test verifies that:
 
 | Source | Licence recorded in sources.csv | Verification |
 |---|---|---|
-| AWS Open Data Registry – Indian Supreme Court Judgments | CC BY 4.0 | Licence metadata recorded; verify applicable dataset terms before redistribution |
+| AWS Open Data Registry ΓÇô Indian Supreme Court Judgments | CC BY 4.0 | Licence metadata recorded; verify applicable dataset terms before redistribution |
 | Supreme Court of India | Not established for this collection | Official website identified as a reference source; no licence assumed |
 
 Source references:
@@ -285,8 +285,8 @@ Original judgment URLs are retained in `data/sources.csv`.
 - Total pages: 4,692.
 - Extraction failures: 0.
 - Low-text PDFs flagged: 0.
-Start target: 1,000 constitutional candidates (2015–2025) — 1,000 distinct downloaded PDFs verified; legal relevance screening remains a limitation.
-- Full target: 20,000+ judgments (2000–2025) — not yet met.
+Start target: 1,000 constitutional candidates (2015ΓÇô2025) - 1,000 distinct downloaded PDFs verified; legal relevance screening remains a limitation.
+- Full target: 20,000+ judgments (2000ΓÇô2025) - not yet met.
 - The current collection includes older judgments and has not been fully screened for constitutional relevance or duplicates.
 Historical status: the live process-kill and resume test was not yet completed at this stage. The later controlled test completed successfully.
 At the time of this report:
@@ -320,9 +320,9 @@ These are estimates based on the current sample, not measured full-dataset costs
 - Result: file-level recovery confirmed; completed files are skipped on restart.
 - Limitation: partial files restart from the beginning, not from the last byte.
 
-## Day 6 — ingestion collection update
+## Day 6 - ingestion collection update
 
-- Confirmed 1,000 unique downloaded candidate URLs from 2015–2025.
+- Confirmed 1,000 unique downloaded candidate URLs from 2015ΓÇô2025.
 - Candidate relevance is based on screening; this is not a manually verified constitutional-judgment count.
 - Total measured collection: 1,124 PDFs, 40,098 pages, 89,854,069 characters.
 - PDF storage: 805.59 MB; processing errors: 0; low-text PDFs: 0.
@@ -339,7 +339,7 @@ These are estimates based on the current sample, not measured full-dataset costs
 - Restart duration: 187.7 seconds.
 - Verified that previously completed downloads were skipped on restart.
 
-### Day 6 — Free PostgreSQL verification
+### Day 6 - Free PostgreSQL verification
 
 - Provider: Neon PostgreSQL
 - Project: prince28-law04-precedentpal
@@ -352,20 +352,20 @@ These are estimates based on the current sample, not measured full-dataset costs
 - Verification: SELECT pg_database_size(current_database());
 - Dashboard usage: 0 CU-hrs compute, 0 kB storage,
   0 kB history, 0 kB network transfer.
-### Day 7 — Manual page verification
+### Day 7 - Manual page verification
 
-Inspected pages 8–12 of [2025] 5 S.C.R. 205 : 2025 INSC 480.
+Inspected pages 8ΓÇô12 of [2025] 5 S.C.R. 205 : 2025 INSC 480.
 
 - Page text is readable and contains substantive judgment content.
 - Page headings are stored and carried forward.
 - Issue: running headers and sentence fragments can be
-  misclassified as headings. For example, pages 9–10 contain
+  misclassified as headings. For example, pages 9ΓÇô10 contain
   "or building to which it relates, or" as a heading.
 - Minor extraction artifacts include control characters,
   running page headers and Markdown heading markers.
 - Follow-up: improve heading detection and remove recurring
   page headers during a later parser-quality pass.
-  ### Day 7 — Cross-document verification
+  ### Day 7 - Cross-document verification
 
 Inspected page 2 of five different judgments.
 
@@ -378,3 +378,129 @@ Inspected page 2 of five different judgments.
   misleading titles.
 - Follow-up: improve heading detection, title extraction,
   and OCR/header cleanup.
+
+# Day 7 - PDF Parsing and Page-Level Extraction
+
+## Objective
+
+Implement a reproducible parsing pipeline for the Day 6 Supreme Court judgment corpus. Extract page-level text and headings, persist the results in PostgreSQL, measure extraction coverage, compare parsers, and document extraction quality.
+
+## Implementation
+
+- Added PDF parsing and page-level text extraction.
+- Added database persistence for parsed pages and heading metadata.
+- Added parse-failure tracking and an Alembic migration.
+- Added corpus parsing and parser comparison scripts.
+- Added tests for parsing and storage.
+- Used resumable processing to avoid reprocessing completed documents after an interruption.
+
+## Corpus processing
+
+| Metric | Result |
+|---|---:|
+| Day 6 PDF corpus | 1,124 |
+| Already parsed before final run | 504 |
+| Parsed in final run | 620 |
+| Pages added in final run | 19,077 |
+| Final run duration | 1,476.8 seconds |
+| Total documents in PostgreSQL | 1,144 |
+| Total pages in PostgreSQL | 40,098 |
+| Pages with non-empty headings | 38,922 |
+| Pages with empty headings | 1,176 |
+| Recorded parse failures | 0 |
+| Heading coverage | 97.07% |
+
+The database contains 1,144 documents because it also includes 20 earlier sample records. The final corpus run processed the remaining 620 PDFs after 504 had already been parsed.
+
+The heading coverage metric measures the presence of at least one extracted heading, not the accuracy of those headings.
+
+## Parse failures and recovery
+
+The final database verification showed zero recorded parse failures.
+
+During processing, transient Neon database DNS/connection timeout errors interrupted progress. The parser was rerun using its resumable processing behavior, and the remaining documents were processed.
+
+- Failure category: transient database connectivity.
+- Recovery: rerun the parsing pipeline after connectivity was restored.
+- Result: all 1,124 Day 6 PDFs were accounted for by the completed parsing run.
+- Final persisted parse failures: 0.
+
+No individual failed PDF is claimed because no final failed-file record was observed.
+
+## Parser comparison
+
+Five PDFs containing 143 pages were processed using three extraction approaches.
+
+| Parser | Characters extracted | Time |
+|---|---:|---:|
+| PyMuPDF | 361,050 | 0.691 seconds |
+| pypdf | 360,417 | 13.222 seconds |
+| Trafilatura (converted HTML) | 355,048 | 0.728 seconds |
+
+No errors were reported in the comparison.
+
+Parser choice: PyMuPDF was selected because it extracted the most characters in the measured sample and was substantially faster than pypdf. It also integrates directly with the PDF parsing pipeline.
+
+## Correct heading extraction
+
+Document: `DR. D. Y. CHANDRACHUD, ASHOK BHUSHAN AND`
+
+Case: `COMMON CAUSE (A REGD. SOCIETY) v. UNION OF INDIA`
+
+Parsed page: 352
+
+Printed page: 352, Supreme Court Reports, 2018, volume 6.
+
+Extracted heading: `Constitutional Perspective of Dignity`
+
+Verification: The heading is present in the page's headings JSONB array and appears in the extracted page text immediately before paragraph 85.
+
+Result: Correct heading extraction verified against the stored page text.
+
+## Incorrect heading extraction
+
+Document: `HIS HOLINESS KESAVANANDA BHARAT!`
+
+Parsed page: 96
+
+Incorrect extracted headings:
+
+- `ged in Sajjan Singh' s(2) case, Gajendgadkar, c. J. thought it fit to`
+- `agreement with the reasoning of Patanjali Sastri,' J. regarding the`
+- `Constitutio,1-makers had intende<;l that any future amendment of the`
+
+Problem: These are incomplete body-text fragments rather than genuine section headings.
+
+Additional example:
+
+Document: `Income Tax Act, 1961-Chapter XX-C-Acquisition of Immovable`
+
+Parsed page: 4
+
+Incorrect extracted heading: `Declared land rate works Sale deed dated F`
+
+Problem: A fragment of valuation data was classified as a heading.
+
+The heading extractor is therefore producing false positives on OCR-heavy and layout-complex pages.
+
+## Table extraction
+
+Document: `Income Tax Act, 1961-Chapter XX-C-Acquisition of Immovable`
+
+Parsed pages: 4â€“6
+
+Observed extraction: Property valuation labels, monetary amounts, percentages, and calculations are represented as continuous text rather than a Markdown grid.
+
+Example from parsed page 4:
+
+`Value of land Rs. 1.30 crores Depreciated value of the Rs. 9,35, 758 structure B Total value of the subject property Rs. 1,39,33, 758`
+
+Result: Loose-text extraction observed. The original PDF layout still needs to be inspected to verify that this content was a table before declaring a confirmed table-extraction failure.
+
+## Extraction issue and proposed fix
+
+Issue: OCR artifacts, running headers, sentence fragments, and flattened valuation data can be incorrectly classified as headings.
+
+Proposed fix: Improve heading detection using layout information, standalone-line checks, and validation against the current page's text. Avoid treating incomplete sentences or monetary-data fragments as headings.
+
+Status: The incorrect extraction is verified. The proposed fix has not yet been implemented or tested.
