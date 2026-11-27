@@ -172,22 +172,20 @@ class OpenAICompatProvider:
 
 
 class FakeLLM:
-    """A scripted provider for tests: no network, no bill.
-
-    `script` holds what each call does, in order: a string is the answer, an exception is
-    raised, and ("partial", error) streams half an answer and then fails.
-    """
+    """A scripted provider for tests: no network, no bill."""
 
     def __init__(self, name: str = "fake", model: str = "fake-1", script: list | None = None):
         self.name, self.model = name, model
         self.script = list(script or [])
         self.calls = 0
+        self.seen = []
 
     def _next(self) -> object:
         self.calls += 1
         return self.script.pop(0) if self.script else "A fake answer."
 
     async def generate(self, messages: list[Message], *, temperature: float = 0.2) -> Reply:
+        self.seen.append({"temperature": temperature, "messages": messages})
         item = self._next()
         if isinstance(item, Exception):
             raise item
@@ -199,7 +197,7 @@ class FakeLLM:
         item = self._next()
         if isinstance(item, Exception):
             raise item
-        error = item[1] if isinstance(item, tuple) else None  # ("partial", error)
+        error = item[1] if isinstance(item, tuple) else None
         words = ("Half an answer" if error else str(item)).split()
         for word in words:
             yield word + " "
