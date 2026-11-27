@@ -352,3 +352,29 @@ These are estimates based on the current sample, not measured full-dataset costs
 - Verification: SELECT pg_database_size(current_database());
 - Dashboard usage: 0 CU-hrs compute, 0 kB storage,
   0 kB history, 0 kB network transfer.
+### Day 7 — Manual page verification
+
+Inspected pages 8–12 of [2025] 5 S.C.R. 205 : 2025 INSC 480.
+
+- Page text is readable and contains substantive judgment content.
+- Page headings are stored and carried forward.
+- Issue: running headers and sentence fragments can be
+  misclassified as headings. For example, pages 9–10 contain
+  "or building to which it relates, or" as a heading.
+- Minor extraction artifacts include control characters,
+  running page headers and Markdown heading markers.
+- Follow-up: improve heading detection and remove recurring
+  page headers during a later parser-quality pass.
+  ### Day 7 — Cross-document verification
+
+Inspected page 2 of five different judgments.
+
+- Text extraction is readable across the sampled documents.
+- Page text and heading arrays are stored correctly.
+- Some headings are empty or contain sentence fragments,
+  judge names, and running headers.
+- Older scanned judgments contain OCR artifacts.
+- Title extraction sometimes produces incomplete or
+  misleading titles.
+- Follow-up: improve heading detection, title extraction,
+  and OCR/header cleanup.
