@@ -7,9 +7,11 @@ from fastapi import APIRouter, FastAPI
 
 from precedentpal.api.errors import register_error_handlers
 from precedentpal.api.middleware import request_context
-from precedentpal.api.routes import documents, health
+from precedentpal.api.routes import chat, documents, health
 from precedentpal.config import Settings, get_settings
+from precedentpal.db.llm_calls import make_recorder
 from precedentpal.db.session import make_engine, make_sessionmaker
+from precedentpal.llm.gateway import build_gateway
 from precedentpal.logging_setup import setup_logging
 
 logger = logging.getLogger("precedentpal")
@@ -30,12 +32,15 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     app.state.settings = settings
     app.state.engine = engine
     app.state.sessionmaker = make_sessionmaker(engine)
+    app.state.system_prompt = chat.load_prompt(settings.prompts_dir)  # missing file: no start
+    app.state.gateway = build_gateway(settings, make_recorder(app.state.sessionmaker))
 
     app.middleware("http")(request_context)
     register_error_handlers(app)
 
     v1 = APIRouter(prefix="/v1")
     v1.include_router(documents.router)
+    v1.include_router(chat.router)
     app.include_router(health.router)
     app.include_router(v1)
     return app
