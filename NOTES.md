@@ -595,3 +595,10 @@ Five extracted records were checked against published Supreme Court judgment tex
 - Satender Kumar Antil — verified; title extraction requires correction and neutral citation should be added.
 
 Result: 5/5 records checked. Two metadata quality issues identified for follow-up. Production API verified with 1,144 documents and 45 extracted judgments.
+
+### Day 10 � Durable ingestion queue
+
+- Redis worker, ingestion job API and database migration implemented.
+- Docker Compose includes the worker service.
+- Local job 1 requested 1,124 items; last observed: 38 done, 2 running, 1,084 queued.
+- Kill-test recovery counts and production endpoint checks still require verification.
