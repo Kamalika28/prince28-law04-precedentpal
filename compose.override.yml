@@ -1,0 +1,4 @@
+services:
+  worker:
+    environment:
+      INGEST_JOB_TIMEOUT: "300"
