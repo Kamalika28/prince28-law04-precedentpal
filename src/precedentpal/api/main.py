@@ -7,7 +7,7 @@ from fastapi import APIRouter, FastAPI
 
 from precedentpal.api.errors import register_error_handlers
 from precedentpal.api.middleware import request_context
-from precedentpal.api.routes import chat, documents, health
+from precedentpal.api.routes import chat, documents, health, ingest
 from precedentpal.config import Settings, get_settings
 from precedentpal.db.llm_calls import make_recorder
 from precedentpal.db.session import make_engine, make_sessionmaker
@@ -41,6 +41,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     v1 = APIRouter(prefix="/v1")
     v1.include_router(documents.router)
     v1.include_router(chat.router)
+    v1.include_router(ingest.router)
     app.include_router(health.router)
     app.include_router(v1)
     return app
